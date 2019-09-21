@@ -44,6 +44,7 @@ Plug 'https://github.com/tpope/vim-eunuch'
 Plug 'https://github.com/tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()
 
