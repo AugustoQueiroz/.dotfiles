@@ -100,3 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Add custom things to path
+# 1. Add the gems to path
+export PATH=$PATH:/home/asq/.gem/ruby/2.6.0/bin
