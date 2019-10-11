@@ -70,6 +70,7 @@ let g:lightline = {
 " NERDTree
 map <C-t> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+let NERDTreeWinSize=50
 
 " GitGutter
 map <C-g> :GitGutterToggle<CR>
