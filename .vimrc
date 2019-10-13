@@ -1,10 +1,8 @@
 set encoding=UTF-8
 
-set lines=30 columns=100 " Change the window size when entering vim
 set fillchars+=vert:\  " Make it so the split between windows doesn't have character inside
 
 filetype plugin indent on	" load filetype-specific indent files
-syntax enable
 set tabstop=4		" number of visual spaces per tab
 set softtabstop=4	" number of spaces after pressing tab
 set shiftwidth=4	" something that fixes the autoidentation problem
@@ -57,6 +55,11 @@ Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
 Plug 'jiangmiao/auto-pairs'
 Plug 'valloric/youcompleteme'
+Plug 'yuttie/comfortable-motion.vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'prettier/vim-prettier', {'do': 'yarn install'}
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'luochen1990/rainbow'
 
 call plug#end()
 
@@ -69,8 +72,28 @@ let g:lightline = {
 
 " NERDTree
 map <C-t> :NERDTreeToggle<CR>
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0
 let NERDTreeWinSize=50
 
 " GitGutter
 map <C-g> :GitGutterToggle<CR>
+
+" Comfortable Motion
+let g:comfortable_motion_scroll_down_key = "j"
+let g:comfortable_motion_scroll_up_key = "k"
+
+" Nord Color Scheme
+let g:nord_cursor_line_number_background=1
+
+" Vim Prettier
+let g:prettier#config#tab_width=4
+
+" Rainbow
+let g:rainbow_active = 1
+map <C-]> :RainbowToggle<CR>
+
+" Things that depend on color
+colorscheme nord
+set cursorline " Make the current line appear highlighted
+hi clear CursorLineNr
+syntax enable
