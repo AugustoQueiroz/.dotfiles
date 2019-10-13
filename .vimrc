@@ -6,6 +6,10 @@ filetype plugin indent on	" load filetype-specific indent files
 set tabstop=4		" number of visual spaces per tab
 set softtabstop=4	" number of spaces after pressing tab
 set shiftwidth=4	" something that fixes the autoidentation problem
+" Make it so a single <Tab> idents the current line a level further
+nnoremap <Tab> >>
+"Make it so that a single Shift + Tab unidents the current line a level"
+nnoremap <S-Tab> <<
 
 " UI Configurations
 set number	" show the line numbers
