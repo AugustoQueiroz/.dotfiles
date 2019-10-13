@@ -1,5 +1,10 @@
 set encoding=UTF-8
 
+map <Up> <nop>
+map <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
 set fillchars+=vert:\  " Make it so the split between windows doesn't have character inside
 
 filetype plugin indent on	" load filetype-specific indent files
@@ -35,7 +40,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Remap ctrl+b to build and run project
-nnoremap <C-b> :!make<CR>
+nnoremap <C-b> :make<CR>
 
 " Plugins
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -101,5 +106,4 @@ map <C-]> :RainbowToggle<CR>
 " Things that depend on color
 colorscheme nord
 set cursorline " Make the current line appear highlighted
-hi clear CursorLineNr
 syntax enable
