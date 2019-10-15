@@ -69,6 +69,9 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'luochen1990/rainbow'
+Plug 'majutsushi/tagbar'
+Plug 'heavenshell/vim-pydocstring'
+Plug 'vim-scripts/DoxygenToolkit.vim'
 
 call plug#end()
 
@@ -102,6 +105,9 @@ let g:prettier#config#tab_width=4
 " Rainbow
 let g:rainbow_active = 1
 map <C-]> :RainbowToggle<CR>
+
+" Doxygen Toolkit
+let g:DoxygenToolkit_authorName="Augusto Queiroz"
 
 " Things that depend on color
 colorscheme nord
