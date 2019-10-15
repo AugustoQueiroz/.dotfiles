@@ -21,6 +21,7 @@ set number	" show the line numbers
 set showcmd	" show the command in bottom bar
 " set cursorline	" highlight the current line
 set showmatch	" highlight matching [{()}]
+set showtabline=2 " Always show the tab line
 
 set incsearch	" search as characters are entered
 set hlsearch	" highlight the matches
