@@ -18,6 +18,7 @@ nnoremap <S-Tab> <<
 
 " UI Configurations
 set number	" show the line numbers
+set relativenumber
 set showcmd	" show the command in bottom bar
 " set cursorline	" highlight the current line
 set showmatch	" highlight matching [{()}]
@@ -39,9 +40,6 @@ nnoremap <space> za
 " make it so if a line wraps, going down/up goes to the wrapped part of the line
 nnoremap j gj
 nnoremap k gk
-
-" Remap ctrl+b to build and run project
-nnoremap <C-b> :make<CR>
 
 " Plugins
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -73,6 +71,7 @@ Plug 'luochen1990/rainbow'
 Plug 'majutsushi/tagbar'
 Plug 'heavenshell/vim-pydocstring'
 Plug 'vim-scripts/DoxygenToolkit.vim'
+Plug 'benmills/vimux'
 
 call plug#end()
 
@@ -109,6 +108,17 @@ map <C-]> :RainbowToggle<CR>
 
 " Doxygen Toolkit
 let g:DoxygenToolkit_authorName="Augusto Queiroz"
+map <C-?> :Dox<CR>
+
+" You Complete Me
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+" Remap ctrl+b to build and run project
+nnoremap <leader>b :VimuxRunCommand("make")<CR>
+nnoremap <leader>r :VimuxRunCommand("make run")<CR>
+nnoremap <leader>c :VimuxRunCommand("make clean")<CR>
+nnoremap <leader>s :VimuxRunCommand("^C")<CR>
 
 " Things that depend on color
 colorscheme nord
