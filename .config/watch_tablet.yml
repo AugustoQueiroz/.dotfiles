@@ -1,0 +1,14 @@
+input_device: /dev/input/by-path/platform-thinkpad_acpi-event
+# input_device: /dev/input/by-path/pci-0000:00:1f.0-platform-INT33D6:00-event # Dell XPS 9365
+
+modes:
+  laptop:
+    # - xinput enable "Wacom Pen and multitouch sensor Finger"
+    - xinput enable "AT Translated Set 2 keyboard"
+    - xinput enable "SynPS/2 Synaptics TouchPad"
+    - xinput enable "TPPS/2 IBM TrackPoint"
+  tablet:
+    # - xinput disable "Wacom Pen and multitouch sensor Finger"
+    - xinput disable "AT Translated Set 2 keyboard"
+    - xinput disable "SynPS/2 Synaptics TouchPad"
+    - xinput disable "TPPS/2 IBM TrackPoint"

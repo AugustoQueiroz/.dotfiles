@@ -1,0 +1,410 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/asq/Dev/CPP
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/asq/Dev/blog
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/asq/Dev/concurrence
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :TD2/Person.cpp
+> git ls-files --stage -- TD2/
+> git show :TD2/Person.h
+> git ls-files --stage -- TD2/
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :TD2/Person.h
+> git ls-files --stage -- TD2/
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :TD2/Person.h
+> git ls-files --stage -- TD2/
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :TD2/Person.h
+> git ls-files --stage -- TD2/
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :TD2/Person.h
+> git ls-files --stage -- TD2/
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :TD2/Makefile
+> git ls-files --stage -- TD2/
+> git check-ignore -v -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :TD2/Makefile
+> git ls-files --stage -- TD2/
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/asq/Dev/fucking-interpreter
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Makefile
+> git ls-files --stage -- ./
+> git show :.gitignore
+> git show :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :_posts/2019-10-08-making-a-fucking-interpreter.markdown
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :_posts/2019-10-08-hello-world.markdown
+> git show :_posts/2019-10-08-making-a-fucking-interpreter.markdown
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Interpreter.h
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git show :main.cpp
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Interpreter.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Interpreter.cpp
+> git show :Interpreter.h
+> git show :Interpreter.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Interpreter.h
+> git show :main.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Interpreter.cpp
+> git show :main.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :Interpreter.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :main.cpp
+> git show :_posts/2019-10-08-hello-world.markdown
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git show :.gitignore
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git show :_posts/2019-10-08-hello-world.markdown
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git show :main.cpp
+> git show :_posts/2019-10-09-making-a-fucking-interpreter.markdown
+> git status -z -u

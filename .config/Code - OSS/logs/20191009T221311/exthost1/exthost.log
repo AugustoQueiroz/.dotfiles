@@ -1,0 +1,16 @@
+[2019-10-09 22:13:13.235] [exthost] [info] extension host started
+[2019-10-09 22:13:13.283] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-10-09 22:13:13.283] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/extension-editing/dist/extension
+[2019-10-09 22:13:13.320] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-10-09 22:13:13.320] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/markdown-language-features/dist/extension
+[2019-10-09 22:13:13.382] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-10-09 22:13:13.382] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-10-09 22:13:13.385] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-10-09 22:13:13.385] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/extension
+[2019-10-09 22:13:13.422] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-10-09 22:13:13.422] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2019-10-09 22:13:13.497] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-10-09 22:13:13.497] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-10-09 22:13:13.502] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2019-10-09 22:13:13.502] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/asq/.vscode-oss/extensions/wakatime.vscode-wakatime-2.2.0/dist/extension
+[2019-10-09 22:13:13.588] [exthost] [info] eager extensions activated

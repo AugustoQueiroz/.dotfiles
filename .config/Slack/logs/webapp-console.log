@@ -1,0 +1,548 @@
+[09/21/19, 16:34:16:191] info: ╔══════════════════════════════════════════════════════════════════════════════════╗ 
+[09/21/19, 16:34:16:191] info: ║      Slack 4.0.2, linux 5.3.0-arch1-1-ARCH on x64 at 09/21/19, 16:34:16:191      ║ 
+[09/21/19, 16:34:16:191] info: ╚══════════════════════════════════════════════════════════════════════════════════╝ 
+[09/21/19, 16:34:16:191] info: Configured logger via 
+{
+  "logLevel": "info"
+}
+[09/21/19, 16:34:16:191] info: Predefined values for process 
+{
+  "platform": "linux",
+  "NODE_ENV": "production",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.0.2",
+  "PACKAGE_MANIFEST.versionName": "The Final Countdown",
+  "PACKAGE_MANIFEST.commit": "8900f04",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[09/21/19, 16:34:16:660] info: Initializing local storage instance at path: /home/asq/.config/Slack/local-settings.json 
+[09/21/19, 16:34:17:255] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[09/21/19, 16:34:18:325] warn: Sep-21 16:34:18.326 error getActiveModelOb found no ob 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.326 TS.boot_data.channel_id: undefined 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.326 TS.boot_data.im_id: undefined 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.326 TS.boot_data.group_id: undefined 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.327 error getActiveModelOb found no ob 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.327 TS.boot_data.channel_id: undefined 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.327 TS.boot_data.im_id: undefined 
+[09/21/19, 16:34:18:326] warn: Sep-21 16:34:18.327 TS.boot_data.group_id: undefined 
+[09/21/19, 16:34:18:369] info: Sep-21 16:34:18.369 [BOOT] booted! pri:0 version:1569019205 start_ms:1569076457038 (1331ms ago) 
+[09/21/19, 16:34:18:383] info: Sep-21 16:34:18.383 [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","featureFlags","bootConfig","unreads","locale"] 
+[09/21/19, 16:34:18:414] info: Sep-21 16:34:18.402 [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["bootConfig"] 
+[09/21/19, 16:34:18:419] warn: Sep-21 16:34:18.406 TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[09/21/19, 16:34:18:419] info: Sep-21 16:34:18.406 [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[09/21/19, 16:34:18:698] info: Sep-21 16:34:18.698 [INFO] running without a user 
+[09/21/19, 16:34:20:171] info: Sep-21 16:34:20.171 [FOCUS-EVENT] Window blurred 
+[09/21/19, 16:34:20:175] warn: Sep-21 16:34:20.175 TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[09/21/19, 16:34:20:175] info: Sep-21 16:34:20.176 [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[09/21/19, 16:34:20:184] info: Sep-21 16:34:20.180 [API-Q] (T00000000) 754f5e3c-1569076460.178 team.info called with reason: UnknownFetchManager 
+[09/21/19, 16:34:20:185] info: Sep-21 16:34:20.181 [API-Q] (T00000000) 754f5e3c-1569076460.178 team.info is ENQUEUED 
+[09/21/19, 16:34:20:185] info: Sep-21 16:34:20.181 [API-Q] (T00000000) 754f5e3c-1569076460.178 team.info is ACTIVE 
+[09/21/19, 16:34:20:290] info: Sep-21 16:34:20.290 [API-Q] (T00000000) 754f5e3c-1569076460.178 team.info is REJECTED: API not ok not_authed 
+[09/21/19, 16:34:20:293] info: Sep-21 16:34:20.292 [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[09/21/19, 16:34:20:293] warn: Sep-21 16:34:20.293 (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[09/21/19, 16:34:38:326] info: Sep-21 16:34:38.324 [FOCUS-EVENT] Window focused 
+[09/21/19, 16:34:40:034] info: Sep-21 16:34:40.033 [FOCUS-EVENT] Window blurred 
+[09/21/19, 16:34:58:728] info: Sep-21 16:34:58.719 [FOCUS-EVENT] Window focused 
+[09/21/19, 16:34:58:889] info: Sep-21 16:34:58.889 [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[09/21/19, 16:34:59:479] info: Initializing local storage instance at path: /home/asq/.config/Slack/local-settings.json 
+[09/21/19, 16:34:59:970] info: Sep-21 16:34:59.970 [METRICS] Starting timers for metrics collection 
+[09/21/19, 16:34:59:988] info: Sep-21 16:34:59.988 [PERF] setupGantry_w begin 877ms 
+[09/21/19, 16:34:59:989] info: Sep-21 16:34:59.989 [APP] client 
+[09/21/19, 16:34:59:989] info: Sep-21 16:34:59.989 [VERSION] version_ts: 1569019205 
+[09/21/19, 16:34:59:989] info: Sep-21 16:34:59.989 [VERSION] min_version_data_ts: 1566510624 
+[09/21/19, 16:34:59:989] info: Sep-21 16:34:59.989 [VERSION] version_hash: 754f5e3c4e74b245267fb7ab2252a1df441ab623 
+[09/21/19, 16:34:59:990] info: Sep-21 16:34:59.990 [LOCAL-CONFIG] ingestIncomingConfig(): no incoming payload to process; current teams: (none) 
+[09/21/19, 16:34:59:991] info: Sep-21 16:34:59.991 [AUTH] Need to re-fetch auth (sc=true, psc=NaN, csc=1569076497, mfc=true, lf=0, mf=1562000400) 
+[09/21/19, 16:34:59:991] info: Sep-21 16:34:59.991 [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1569076499991 
+[09/21/19, 16:34:59:992] info: Sep-21 16:34:59.992 [AUTH] fetchAuthAndReturnToUrl: will return to /client 
+[09/21/19, 16:34:59:992] info: Sep-21 16:34:59.992 [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=null&return_to=%2Fclient&teams= 
+[09/21/19, 16:34:59:994] info: [WD] All assets have reported back; s: 7; f: 0 
+[09/21/19, 16:35:00:114] info: [AUTH] credentials are ready 
+[09/21/19, 16:35:00:117] info: Sep-21 16:35:00.117 [AUTH] credentials are ready ({"added":["TMW14CTRD"],"changed":[],"removed":[],"isNoOp":false}) 
+[09/21/19, 16:35:00:117] info: Sep-21 16:35:00.117 [AUTH] credentials are ready; reloading to /client 
+[09/21/19, 16:35:00:635] info: Initializing local storage instance at path: /home/asq/.config/Slack/local-settings.json 
+[09/21/19, 16:35:00:954] info: Sep-21 16:35:00.955 [METRICS] Starting timers for metrics collection 
+[09/21/19, 16:35:00:976] info: Sep-21 16:35:00.976 [PERF] setupGantry_w begin 853ms 
+[09/21/19, 16:35:00:977] info: Sep-21 16:35:00.977 [APP] client 
+[09/21/19, 16:35:00:977] info: Sep-21 16:35:00.977 [VERSION] version_ts: 1569019205 
+[09/21/19, 16:35:00:977] info: Sep-21 16:35:00.977 [VERSION] min_version_data_ts: 1566510624 
+[09/21/19, 16:35:00:977] info: Sep-21 16:35:00.977 [VERSION] version_hash: 754f5e3c4e74b245267fb7ab2252a1df441ab623 
+[09/21/19, 16:35:00:978] info: Sep-21 16:35:00.978 [LOCAL-CONFIG] ingestIncomingConfig(): processing 448 bytes of data 
+[09/21/19, 16:35:00:978] info: Sep-21 16:35:00.978 [LOCAL-CONFIG] ingestIncomingConfig(): teams before: (none), teams now: TMW14CTRD 
+[09/21/19, 16:35:00:979] info: Sep-21 16:35:00.980 [AUTH] Credentials are fresh (psc=1569076497, csc=1569076497) 
+[09/21/19, 16:35:00:979] info: Sep-21 16:35:00.980 [BOOT] Initial team ID: TMW14CTRD 
+[09/21/19, 16:35:00:981] info: Sep-21 16:35:00.981 [PERF] setupGantry_w took 5.4ms 
+[09/21/19, 16:35:00:983] info: Sep-21 16:35:00.983 [PERF] bootClient_w begin 860ms 
+[09/21/19, 16:35:00:986] info: Sep-21 16:35:00.986 [BOOT] (TMW14CTRD) Initializing boot 
+[09/21/19, 16:35:00:991] info: Sep-21 16:35:00.990 [BOOT] (TMW14CTRD) Skipping checking persisted store because if it exists it's out of date 
+[09/21/19, 16:35:00:991] info: Sep-21 16:35:00.991 [PERSIST] (TMW14CTRD) Purging persisted model... 
+[09/21/19, 16:35:00:994] info: Sep-21 16:35:00.994 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.993 client.boot called with reason: initial-data 
+[09/21/19, 16:35:00:994] info: Sep-21 16:35:00.994 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.993 client.boot is ENQUEUED 
+[09/21/19, 16:35:00:995] info: Sep-21 16:35:00.996 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.993 client.boot is ACTIVE 
+[09/21/19, 16:35:00:996] info: Sep-21 16:35:00.996 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.996 api.features called 
+[09/21/19, 16:35:00:996] info: Sep-21 16:35:00.996 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.996 api.features is ENQUEUED 
+[09/21/19, 16:35:00:996] info: Sep-21 16:35:00.997 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.996 api.features is ACTIVE 
+[09/21/19, 16:35:00:997] info: Sep-21 16:35:00.997 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.997 experiments.getByUser called 
+[09/21/19, 16:35:00:997] info: Sep-21 16:35:00.998 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.997 experiments.getByUser is ENQUEUED 
+[09/21/19, 16:35:00:997] info: Sep-21 16:35:00.998 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.997 experiments.getByUser is ACTIVE 
+[09/21/19, 16:35:00:997] info: Sep-21 16:35:00.998 [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[09/21/19, 16:35:01:017] info: Sep-21 16:35:01.017 [PERSIST] (TMW14CTRD) Purged model 
+[09/21/19, 16:35:01:317] info: Sep-21 16:35:01.318 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.993 client.boot is RESOLVED 
+[09/21/19, 16:35:01:319] info: Sep-21 16:35:01.319 [BOOT] {"selfData":{"id":"UN9L3987K","team_id":"TMW14CTRD","name":"[redacted]","deleted":false,"color":"e85d72","real_name":"[redacted]","tz":"Europe/Brussels","tz_label":"Central European Summer Time","tz_offset":7200,"profile":{"title":"[redacted]","phone":"","skype":"[redacted]","real_name":"[redacted]","real_name_normalized":"[redacted]","display_name":"[redacted]","display_name_normalized":"[redacted]","fields":"[redacted]","status_text":"[redacted]","status_emoji":"","status_expiration":0,"avatar_hash":"g9f42c41a128","email":"[redacted]","status_text_canonical":"","team":"TMW14CTRD"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false,"is_app_user":false,"updated":1568788637,"manual_presence":"active"},"teamData":{"id":"TMW14CTRD","name":"[redacted]","email_domain":"","domain":"informatiquep-kyw7477","msg_edit_window_mins":-1,"prefs":{"locale":"fr-FR","invites_only_admins":true,"show_join_leave":false,"default_channels":["CMW14D6BH","CMMP66J1F","CMMP66QGZ"],"username_policy":"prénom nom","display_real_names":true,"who_can_create_channels":"admin","who_can_archive_channels":"owner","who_can_create_groups":"regular","who_can_kick_channels":"admin","who_can_kick_groups":"regular","who_can_manage_channel_posting_prefs":"admin","who_can_at_everyone":"admin","who_can_at_channel":"regular","warn_before_at_channel":"always","msg_edit_window_mins":-1,"allow_message_deletion":true,"emoji_only_admins":true,"loading_only_admins":true,"slackbot_responses_disabled":true,"slackbot_responses_only_admins":false,"app_whitelist_enabled":true,"who_can_manage_integrations":{"type":["owner","admin"]},"all_users_can_purchase":false,"billing_wdf_customer_id":"CUST-7211","hide_referers":true,"calling_app_name":"Slack","allow_calls":true,"allow_calls_interactive_screen_sharing":true,"who_can_post_general":"ra","workflow_builder_enabled":true,"retention_type":0,"retention_duration":0,"group_retention_type":0,"group_retention_duration":0,"dm_retention_type":0,"dm_retention_duration":0,"file_retention_type":0,"file_retention_duration":0,"allow_retention_override":false,"default_rxns":["simple_smile","thumbsup","white_check_mark","heart","eyes"],"compliance_export_start":0,"disallow_public_file_urls":false,"who_can_create_delete_user_groups":"admin","who_can_edit_user_groups":"admin","who_can_change_team_profile":"admin","subteams_auto_create_owner":false,"subteams_auto_create_admin":false,"display_email_addresses":true,"discoverable":"unlisted","dnd_days":"every_day","invite_requests_enabled":true,"disable_file_uploads":"allow_all","disable_file_editing":false,"disable_file_deleting":false,"file_limit_whitelisted":false,"uses_customized_custom_status_presets":false,"disable_email_ingestion":false,"who_can_manage_guests":{"type":["admin"]},"who_can_create_shared_channels":"admin","who_can_manage_shared_channels":{"type":["admin"]},"who_can_post_in_shared_channels":{"type":["ra"]},"allow_shared_channel_perms_override":false,"who_can_manage_ext_shared_channels":{"type":["ORG_ADMINS_AND_OWNERS"]},"gdrive_enabled_team":false,"dropbox_legacy_picker":false,"box_app_installed":false,"onedrive_app_installed":false,"onedrive_enabled_team":false,"can_receive_shared_channels_invites":true,"enterprise_default_channels":[],"enterprise_mandatory_channels":[],"enterprise_mdm_disable_file_download":false,"mobile_passcode_timeout_in_seconds":-1,"has_hipaa_compliance":false,"self_serve_select":false,"loud_channel_mentions_limit":10000,"enable_shared_channels":1,"enterprise_mobile_device_check":false,"disable_sidebar_connect_prompts":[],"disable_sidebar_install_prompts":[],"block_file_download":false,"custom_contact_email":"[redacted]","ent_required_browser":null,"dnd_enabled":true,"dnd_start_hour":"22:00","dnd_end_hour":"08:00","dnd_before_monday":"08:00","dnd_after_monday":"22:00","dnd_before_tuesday":"08:00","dnd_after_tuesday":"22:00","dnd_before_wednesday":"08:00","dnd_after_wednesday":"22:00","dnd_before_thursday":"08:00","dnd_after_thursday":"22:00","dnd_before_friday":"08:00","dnd_after_friday":"22:00","dnd_before_saturday":"08:00","dnd_after_saturday":"22:00","dnd_before_sunday":"08:00","dnd_after_sunday":"22:00","dnd_enabled_monday":"partial","dnd_enabled_tuesday":"partial","dnd_enabled_wednesday":"partial","dnd_enabled_thursday":"partial","dnd_enabled_friday":"partial","dnd_enabled_saturday":"partial","dnd_enabled_sunday":"partial","custom_status_presets":"[redacted]","custom_status_default_emoji":":speech_balloon:","auth_mode":"normal","invites_limit":true},"icon":{"image_34":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_34.png","image_44":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_44.png","image_68":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_68.png","image_88":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_88.png","image_102":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_102.png","image_132":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_132.png","image_230":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_230.png","image_original":"https://avatars.slack-edge.com/2019-08-30/732263803458_04f7eb33379837927fc0_original.png"},"over_storage_limit":false,"messages_count":0,"plan":"std","onboarding_channel_id":"","date_create":1567067663,"limit_ts":0,"avatar_base_url":"https://ca.slack-edge.com/"},"teamPrefsData":{"locale":"fr-FR","invites_only_admins":true,"show_join_leave":false,"default_channels":["CMW14D6BH","CMMP66J1F","CMMP66QGZ"],"username_policy":"prénom nom","display_real_names":true,"who_can_create_channels":"admin","who_can_archive_channels":"owner","who_can_create_groups":"regular","who_can_kick_channels":"admin","who_can_kick_groups":"regular","who_can_manage_channel_posting_prefs":"admin","who_can_at_everyone":"admin","who_can_at_channel":"regular","warn_before_at_channel":"always","msg_edit_window_mins":-1,"allow_message_deletion":true,"emoji_only_admins":true,"loading_only_admins":true,"slackbot_responses_disabled":true,"slackbot_responses_only_admins":false,"app_whitelist_enabled":true,"who_can_manage_integrations":{"type":["owner","admin"]},"all_users_can_purchase":false,"billing_wdf_customer_id":"CUST-7211","hide_referers":true,"calling_app_name":"Slack","allow_calls":true,"allow_calls_interactive_screen_sharing":true,"who_can_post_general":"ra","workflow_builder_enabled":true,"retention_type":0,"retention_duration":0,"group_retention_type":0,"group_retention_duration":0,"dm_retention_type":0,"dm_retention_duration":0,"file_retention_type":0,"file_retention_duration":0,"allow_retention_override":false,"default_rxns":["simple_smile","thumbsup","white_check_mark","heart","eyes"],"compliance_export_start":0,"disallow_public_file_urls":false,"who_can_create_delete_user_groups":"admin","who_can_edit_user_groups":"admin","who_can_change_team_profile":"admin","subteams_auto_create_owner":false,"subteams_auto_create_admin":false,"display_email_addresses":true,"discoverable":"unlisted","dnd_days":"every_day","invite_requests_enabled":true,"disable_file_uploads":"allow_all","disable_file_editing":false,"disable_file_deleting":false,"file_limit_whitelisted":false,"uses_customized_custom_status_presets":false,"disable_email_ingestion":false,"who_can_manage_guests":{"type":["admin"]},"who_can_create_shared_channels":"admin","who_can_manage_shared_channels":{"type":["admin"]},"who_can_post_in_shared_channels":{"type":["ra"]},"allow_shared_channel_perms_override":false,"who_can_manage_ext_shared_channels":{"type":["ORG_ADMINS_AND_OWNERS"]},"gdrive_enabled_team":false,"dropbox_legacy_picker":false,"box_app_installed":false,"onedrive_app_installed":false,"onedrive_enabled_team":false,"can_receive_shared_channels_invites":true,"enterprise_default_channels":[],"enterprise_mandatory_channels":[],"enterprise_mdm_disable_file_download":false,"mobile_passcode_timeout_in_seconds":-1,"has_hipaa_compliance":false,"self_serve_select":false,"loud_channel_mentions_limit":10000,"enable_shared_channels":1,"enterprise_mobile_device_check":false,"disable_sidebar_connect_prompts":[],"disable_sidebar_install_prompts":[],"block_file_download":false,"custom_contact_email":"[redacted]","ent_required_browser":null,"dnd_enabled":true,"dnd_start_hour":"22:00","dnd_end_hour":"08:00","dnd_before_monday":"08:00","dnd_after_monday":"22:00","dnd_before_tuesday":"08:00","dnd_after_tuesday":"22:00","dnd_before_wednesday":"08:00","dnd_after_wednesday":"22:00","dnd_before_thursday":"08:00","dnd_after_thursday":"22:00","dnd_before_friday":"08:00","dnd_after_friday":"22:00","dnd_before_saturday":"08:00","dnd_after_saturday":"22:00","dnd_before_sunday":"08:00","dnd_after_sunday":"22:00","dnd_enabled_monday":"partial","dnd_enabled_tuesday":"partial","dnd_enabled_wednesday":"partial","dnd_enabled_thursday":"partial","dnd_enabled_friday":"partial","dnd_enabled_saturday":"partial","dnd_enabled_sunday":"partial","custom_status_presets":"[redacted]","custom_status_default_emoji":":speech_balloon:","auth_mode":"normal","invites_limit":true,"can_user_manage_shared_channels":false},"userPrefsData":{"user_colors":"","color_names_in_list":true,"keyboard":null,"email_alerts":"instant","email_alerts_sleep_until":0,"email_tips":false,"email_weekly":false,"email_offers":false,"email_research":false,"email_developer":false,"welcome_message_hidden":false,"search_sort":"not_set","search_file_sort":"score","search_channel_sort":"relevant","search_people_sort":"relevant","expand_inline_imgs":true,"expand_internal_inline_imgs":true,"expand_snippets":false,"posts_formatting_guide":true,"seen_welcome_2":false,"seen_ssb_prompt":false,"spaces_new_xp_banner_dismissed":false,"search_only_my_channels":false,"search_only_current_team":false,"search_hide_my_channels":false,"search_only_show_online":false,"search_hide_deactivated_users":false,"emoji_mode":"default","emoji_use":"[redacted]","has_invited":false,"has_uploaded":false,"has_created_channel":false,"has_searched":false,"search_exclude_channels":"","messages_theme":"default","webapp_spellcheck":true,"no_joined_overlays":false,"no_created_overlays":false,"dropbox_enabled":false,"seen_domain_invite_reminder":false,"seen_member_invite_reminder":false,"mute_sounds":false,"arrow_history":false,"tab_ui_return_selects":true,"obey_inline_img_limit":true,"require_at":true,"ssb_space_window":"","mac_ssb_bounce":"","mac_ssb_bullet":true,"expand_non_media_attachments":true,"show_typing":true,"pagekeys_handled":true,"last_snippet_type":"","display_real_names_override":0,"display_display_names":true,"time24":false,"enter_is_special_in_tbt":false,"msg_input_send_btn":false,"msg_input_send_btn_auto_set":false,"msg_input_sticky_composer":true,"graphic_emoticons":false,"convert_emoticons":true,"ss_emojis":true,"seen_onboarding_start":false,"onboarding_cancelled":false,"seen_onboarding_slackbot_conversation":false,"seen_onboarding_channels":false,"seen_onboarding_direct_messages":false,"seen_onboarding_invites":false,"seen_onboarding_search":false,"seen_onboarding_recent_mentions":false,"seen_onboarding_starred_items":false,"seen_onboarding_private_groups":false,"seen_onboarding_banner":false,"onboarding_slackbot_conversation_step":0,"set_tz_automatically":true,"dnd_enabled":true,"dnd_start_hour":"22:00","dnd_end_hour":"8:00","dnd_before_monday":"8:00","dnd_after_monday":"22:00","dnd_enabled_monday":"partial","dnd_before_tuesday":"8:00","dnd_after_tuesday":"22:00","dnd_enabled_tuesday":"partial","dnd_before_wednesday":"8:00","dnd_after_wednesday":"22:00","dnd_enabled_wednesday":"partial","dnd_before_thursday":"8:00","dnd_after_thursday":"22:00","dnd_enabled_thursday":"partial","dnd_before_friday":"8:00","dnd_after_friday":"22:00","dnd_enabled_friday":"partial","dnd_before_saturday":"8:00","dnd_after_saturday":"22:00","dnd_enabled_saturday":"partial","dnd_before_sunday":"8:00","dnd_after_sunday":"22:00","dnd_enabled_sunday":"partial","dnd_days":"every_day","dnd_custom_new_badge_seen":false,"dnd_notification_schedule_new_badge_seen":false,"unread_collapsed_channels":null,"sidebar_behavior":"","channel_sort":"default","separate_private_channels":false,"separate_shared_channels":true,"sidebar_theme":"default","sidebar_theme_custom_values":"","no_invites_widget_in_sidebar":false,"no_omnibox_in_channels":false,"k_key_omnibox_auto_hide_count":0,"show_sidebar_quickswitcher_button":false,"ent_org_wide_channels_sidebar":true,"mark_msgs_read_immediately":true,"start_scroll_at_oldest":true,"snippet_editor_wrap_long_lines":false,"ls_disabled":false,"f_key_search":false,"k_key_omnibox":true,"prompted_for_email_disabling":false,"no_macelectron_banner":false,"no_macssb1_banner":false,"no_macssb2_banner":false,"no_winssb1_banner":true,"hide_user_group_info_pane":false,"mentions_exclude_at_user_groups":false,"mentions_exclude_reactions":false,"privacy_policy_seen":true,"enterprise_migration_seen":true,"last_tos_acknowledged":"tos_mar2018","search_exclude_bots":false,"load_lato_2":false,"fuller_timestamps":false,"last_seen_at_channel_warning":0,"emoji_autocomplete_big":false,"two_factor_auth_enabled":false,"two_factor_type":null,"two_factor_backup_type":null,"hide_hex_swatch":false,"show_jumper_scores":false,"enterprise_mdm_custom_msg":"","enterprise_excluded_app_teams":null,"client_logs_pri":"","flannel_server_pool":"random","mentions_exclude_at_channels":true,"confirm_clear_all_unreads":true,"confirm_user_marked_away":true,"box_enabled":false,"seen_single_emoji_msg":false,"confirm_sh_call_start":true,"preferred_skin_tone":"","show_all_skin_tones":false,"whats_new_read":1568788637,"frecency_jumper":"[redacted]","frecency_ent_jumper":"[redacted]","frecency_ent_jumper_backup":"[redacted]","jumbomoji":true,"newxp_seen_last_message":0,"show_memory_instrument":false,"enable_unread_view":false,"seen_unread_view_coachmark":false,"enable_react_emoji_picker":true,"seen_custom_status_badge":false,"seen_custom_status_callout":false,"seen_custom_status_expiration_badge":false,"used_custom_status_kb_shortcut":false,"seen_guest_admin_slackbot_announcement":false,"seen_threads_notification_banner":false,"seen_name_tagging_coachmark":false,"all_unreads_sort_order":"","locale":"en-US","seen_intl_channel_names_coachmark":false,"seen_p2_locale_change_message":1568788364037,"seen_locale_change_message":0,"seen_japanese_locale_change_message":false,"seen_shared_channels_coachmark":false,"seen_shared_channels_opt_in_change_message":false,"has_recently_shared_a_channel":false,"seen_channel_browser_admin_coachmark":false,"seen_administration_menu":false,"seen_drafts_section_coachmark":false,"seen_emoji_update_overlay_coachmark":false,"seen_sonic_deluxe_toast":2,"allow_calls_to_set_current_status":true,"in_interactive_mas_migration_flow":false,"sunset_interactive_message_views":0,"shdep_promo_code_submitted":false,"seen_shdep_slackbot_message":false,"seen_calls_interactive_coachmark":false,"allow_cmd_tab_iss":false,"workflow_builder_coachmarks":"{}","seen_gdrive_coachmark":false,"overloaded_message_enabled":true,"seen_highlights_coachmark":false,"seen_highlights_arrows_coachmark":false,"seen_highlights_warm_welcome":false,"seen_new_search_ui":false,"seen_channel_search":false,"seen_people_search":true,"a11y_animations":true,"seen_keyboard_shortcuts_coachmark":false,"needs_initial_password_set":false,"lessons_enabled":false,"tractor_enabled":false,"tractor_experiment_group":"","opened_slackbot_dm":false,"newxp_suggested_channels":"","onboarding_complete":true,"welcome_place_state":"none","onboarding_role_apps":null,"whocanseethis_dm_mpdm_badge":true,"highlight_words":"[redacted]","threads_everything":false,"no_text_in_notifications":false,"push_show_preview":true,"growls_enabled":true,"all_channels_loud":false,"push_dm_alert":true,"push_mention_alert":true,"push_everything":false,"push_idle_wait":2,"push_sound":"b2.mp3","new_msg_snd":"knock_brush.mp3","push_loud_channels":"","push_mention_channels":"","push_loud_channels_set":"","loud_channels":"","never_channels":"","loud_channels_set":"","at_channel_suppressed_channels":"","push_at_channel_suppressed_channels":"","muted_channels":"","all_notifications_prefs":"{\"global\":{\"global_desktop\":\"mentions_dms\",\"global_mpdm_desktop\":\"everything\",\"global_mobile\":\"mentions_dms\",\"global_mpdm_mobile\":\"everything\",\"mobile_sound\":\"b2.mp3\",\"desktop_sound\":\"knock_brush.mp3\",\"global_keywords\":\"\",\"push_idle_wait\":2,\"no_text_in_notifications\":false,\"push_show_preview\":true,\"threads_everything\":false},\"channels\":[]}","growth_msg_limit_approaching_cta_count":0,"growth_msg_limit_approaching_cta_ts":0,"growth_msg_limit_reached_cta_count":0,"growth_msg_limit_reached_cta_last_ts":0,"growth_msg_limit_long_reached_cta_count":0,"growth_msg_limit_long_reached_cta_last_ts":0,"growth_msg_limit_sixty_day_banner_cta_count":0,"growth_msg_limit_sixty_day_banner_cta_last_ts":0,"growth_all_banners_prefs":"[]","analytics_upsell_coachmark_seen":false,"seen_app_space_coachmark":false,"seen_app_space_tutorial":false,"purchaser":false,"app_action_picker":"{ \"enabled\": false }","show_ent_onboarding":true,"folders_enabled":false,"folder_data":"[]","seen_corporate_export_alert":false,"show_autocomplete_help":1,"deprecation_toast_last_seen":0,"deprecation_modal_last_seen":0,"failover_proxy_check_completed":0,"edge_upload_proxy_check_completed":0,"app_subdomain_check_completed":11,"add_apps_prompt_dismissed":false,"add_channel_prompt_dismissed":false,"channel_sidebar_hide_invite":false,"in_prod_surveys_enabled":true,"dismissed_installed_app_dm_suggestions":"","tz":"Europe/Brussels","locales_enabled":{"de-DE":"Deutsch (Deutschland)","en-GB":"English (UK)","en-US":"English (US)","es-ES":"Español (España)","es-LA":"Español (Latinoamérica)","fr-FR":"Français (France)","pt-BR":"Português (Brasil)","ja-JP":"日本語"}},"channelsData":[{"id":"CMHLUSJCB","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567115074,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1569001839.006100","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMJ7XDW03","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567163956,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1568707409.005400","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMMP66J1F","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567067664,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":["random"],"is_member":true,"latest":"1569076500.000000","last_read":"1568962195.055900","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMMP66QGZ","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567067664,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":["enseignement"],"is_member":true,"latest":"1569076500.000000","last_read":"1568742093.006800","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMNN720GH","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567114124,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1568990150.034000","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMQEETMLZ","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567277210,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMWRK190V","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1569003680.007000","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMW14D6BH","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567067664,"is_archived":false,"is_general":true,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":["general","annonces_si","general"],"is_member":true,"latest":"1569076500.000000","last_read":"1567620868.026900","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":true},{"id":"CMZC4MJ2J","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567349003,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMKC8UERH","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1568710508.026500","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CMZUL31CK","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1568382853,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMWRF0GL8","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1568709219.002200","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CN72X950E","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1567979880,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMQE325FB","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1568791350.002600","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"CN958AY30","name":"[redacted]","is_channel":true,"is_group":false,"is_im":false,"created":1568120719,"is_archived":false,"is_general":false,"unlinked":0,"name_normalized":"[redacted]","is_shared":false,"is_frozen":false,"parent_conversation":null,"creator":"UMGMCCGG3","is_ext_shared":false,"is_org_shared":false,"shared_team_ids":["TMW14CTRD"],"pending_shared":[],"pending_connected_team_ids":[],"is_pending_ext_shared":false,"is_private":false,"is_mpim":false,"topic":"[redacted]","purpose":"[redacted]","previous_names":[],"is_member":true,"latest":"1569076500.000000","last_read":"1568788714.018900","priority":0.015751632364374,"is_starred":false,"is_thread_only":false,"is_read_only":false},{"id":"DNFJFE8LU","created":1568788637,"is_frozen":false,"is_archived":false,"is_im":true,"is_org_shared":false,"user":"UN9L3987K","last_read":"0000000000.000000","latest":"1569076500.000000","is_open":true,"is_member":true,"priority":0.015751632364374,"is_starred":false},{"id":"DNG2X3FQV","created":1568788637,"is_frozen":false,"is_archived":false,"is_im":true,"is_org_shared":false,"user":"USLACKBOT","last_read":"1568876432.000100","latest":"1569076500.000000","is_open":true,"is_member":true,"priority":0.012003027745239,"is_starred":false},{"id":"DNG2X3K0V","created":1568788637,"is_frozen":false,"is_archived":false,"is_im":true,"is_org_shared":false,"user":"UMN2G8QP4","last_read":"0000000000.000000","latest":"1569076500.000000","is_open":false,"is_member":true,"priority":0.015751632364374,"is_starred":false}],"userGroupMembershipData":[],"emojiBootData":{"cacheTs":"1568806174.134700"},"slashCommandsBootData":{"cacheTs":"1567632984.267700"},"redact":"0.9000000000014552 ms"} 
+[09/21/19, 16:35:01:797] info: [WD] All assets have reported back; s: 11; f: 0 
+[09/21/19, 16:35:01:799] info: Sep-21 16:35:01.799 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.996 api.features is RESOLVED 
+[09/21/19, 16:35:01:801] info: Sep-21 16:35:01.801 [BOOT-QUEUE] TMW14CTRD noversion-1569076500.997 experiments.getByUser is RESOLVED 
+[09/21/19, 16:35:01:849] info: Sep-21 16:35:01.849 [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[09/21/19, 16:35:01:862] info: Sep-21 16:35:01.863 [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[09/21/19, 16:35:01:863] info: Sep-21 16:35:01.864 [BOOT-QUEUE] TMW14CTRD noversion-1569076501.863 rtm.shouldReload called 
+[09/21/19, 16:35:01:863] info: Sep-21 16:35:01.864 [BOOT-QUEUE] TMW14CTRD noversion-1569076501.863 rtm.shouldReload is ENQUEUED 
+[09/21/19, 16:35:01:864] info: Sep-21 16:35:01.864 [BOOT-QUEUE] TMW14CTRD noversion-1569076501.863 rtm.shouldReload is ACTIVE 
+[09/21/19, 16:35:01:864] info: Sep-21 16:35:01.864 [BOOT] (TMW14CTRD) Booting cold 
+[09/21/19, 16:35:01:908] info: Sep-21 16:35:01.909 [DESKTOP-MIDDLEWARE] (TMW14CTRD) Forwarding redux payload to desktop ["theme","featureFlags","bootConfig","unreads","locale"] 
+[09/21/19, 16:35:01:910] info: Sep-21 16:35:01.910 [BOOT] (TMW14CTRD) Dispatching boot data 
+[09/21/19, 16:35:01:910] info: Sep-21 16:35:01.910 [DESKTOP-MIDDLEWARE] (TMW14CTRD) Forwarding redux payload to desktop ["theme","bootConfig"] 
+[09/21/19, 16:35:01:912] warn: Sep-21 16:35:01.912 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function 
+[09/21/19, 16:35:01:922] info: Sep-21 16:35:01.922 [DESKTOP-MIDDLEWARE] (TMW14CTRD) Forwarding redux payload to desktop ["theme","unreads"] 
+[09/21/19, 16:35:01:932] info: Sep-21 16:35:01.931 [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[09/21/19, 16:35:01:934] info: Sep-21 16:35:01.934 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.932 emoji.list called with reason: loadEmoji 
+[09/21/19, 16:35:01:934] info: Sep-21 16:35:01.934 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.932 emoji.list is ENQUEUED 
+[09/21/19, 16:35:01:934] info: Sep-21 16:35:01.934 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.932 emoji.list is ACTIVE 
+[09/21/19, 16:35:01:935] info: Sep-21 16:35:01.936 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.935 commands.list called with reason: loadSlashCommands 
+[09/21/19, 16:35:01:935] info: Sep-21 16:35:01.936 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.935 commands.list is ENQUEUED 
+[09/21/19, 16:35:01:936] info: Sep-21 16:35:01.936 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.935 commands.list is ACTIVE 
+[09/21/19, 16:35:01:944] info: Sep-21 16:35:01.945 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.944 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[09/21/19, 16:35:01:945] info: Sep-21 16:35:01.945 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.944 api.getFlannelHttpUrl is ENQUEUED 
+[09/21/19, 16:35:01:945] info: Sep-21 16:35:01.945 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.944 api.getFlannelHttpUrl is ACTIVE 
+[09/21/19, 16:35:01:946] info: Sep-21 16:35:01.947 [BOOT] (TMW14CTRD) Boot complete 
+[09/21/19, 16:35:01:948] info: Sep-21 16:35:01.949 [UNREAD-COUNTS] (TMW14CTRD) Counting unreads in CMW14D6BH because (4) timestamps added 
+[09/21/19, 16:35:01:949] info: Sep-21 16:35:01.949 [UNREAD-COUNTS] (TMW14CTRD) Checking unreads in CMW14D6BH after a new message 
+[09/21/19, 16:35:01:949] info: Sep-21 16:35:01.949 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (workspace_not_focused) 
+[09/21/19, 16:35:01:963] info: Sep-21 16:35:01.957 [DESKTOP-SIDE-EFFECT] (TMW14CTRD) Team TMW14CTRD booted, creating delegate 
+[09/21/19, 16:35:01:963] info: Sep-21 16:35:01.957 [DESKTOP-SIDE-EFFECT] (TMW14CTRD) Attempted boot for all workspaces, signaling desktop 
+[09/21/19, 16:35:01:966] error: info() expects 1 or more arguments to be passed after the required label 
+[09/21/19, 16:35:01:966] info: Sep-21 16:35:01.963 [BOOT] (TMW14CTRD) Connecting to socket 
+[09/21/19, 16:35:01:966] info: Sep-21 16:35:01.964 [SOCKET-MANAGER] (TMW14CTRD) Changing from never_connected to prov_connect 
+[09/21/19, 16:35:01:966] info: Sep-21 16:35:01.964 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 16:35:01:967] info: Sep-21 16:35:01.965 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 16:35:01:967] info: Sep-21 16:35:01.965 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 16:35:01:969] info: Sep-21 16:35:01.969 [BOOT] (TMW14CTRD) (TMW14CTRD) Mounting client 
+[09/21/19, 16:35:02:071] info: Sep-21 16:35:02.072 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.071 promo.getEligibleOffer called with reason: payments-plans-fetch-eligible-offer 
+[09/21/19, 16:35:02:071] info: Sep-21 16:35:02.072 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.071 promo.getEligibleOffer is ENQUEUED 
+[09/21/19, 16:35:02:072] info: Sep-21 16:35:02.072 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.071 promo.getEligibleOffer is ACTIVE 
+[09/21/19, 16:35:02:078] info: Sep-21 16:35:02.078 [HISTORY-NAVIGATION] Adding route to the history stack 
+[09/21/19, 16:35:02:236] info: Sep-21 16:35:02.237 [DRAFTS] (TMW14CTRD) There are no channels with drafts 
+[09/21/19, 16:35:02:237] info: Sep-21 16:35:02.237 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.237 apps.getSidebarPrompts called with reason: initializeAppSuggestionLinksData 
+[09/21/19, 16:35:02:237] info: Sep-21 16:35:02.237 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.237 apps.getSidebarPrompts is ENQUEUED 
+[09/21/19, 16:35:02:238] info: Sep-21 16:35:02.237 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.237 apps.getSidebarPrompts is ACTIVE 
+[09/21/19, 16:35:02:239] info: Sep-21 16:35:02.239 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.239 promo.banner called with reason: fetch-active-message-pane-banner 
+[09/21/19, 16:35:02:240] info: Sep-21 16:35:02.239 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.239 promo.banner is ENQUEUED 
+[09/21/19, 16:35:02:240] info: Sep-21 16:35:02.240 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.239 promo.banner is ACTIVE 
+[09/21/19, 16:35:02:243] info: Sep-21 16:35:02.243 [PERF] (TMW14CTRD) Logged time to visible (TTV): 2118.2000000000016 
+[09/21/19, 16:35:02:346] info: Sep-21 16:35:02.345 [CHECK-UNREADS] (TMW14CTRD) unreadLineVisible updated: false -> true 
+[09/21/19, 16:35:02:347] info: Sep-21 16:35:02.347 [PERF] (TMW14CTRD) Logged time to usable (TTU): 2222.9999999999563 
+[09/21/19, 16:35:02:441] info: Sep-21 16:35:02.441 [PERF] (TMW14CTRD) First meaningful paint: 2113ms 
+[09/21/19, 16:35:02:441] info: Sep-21 16:35:02.441 [OPPORTUNISTIC_RELOADS] Opportunistic Reloads is enabled for this session 
+[09/21/19, 16:35:02:441] info: Sep-21 16:35:02.441 [PERF] bootClient_w took 1457.9ms 
+[09/21/19, 16:35:02:442] info: Sep-21 16:35:02.442 [BOOT] Booting other teams:  
+[09/21/19, 16:35:02:443] info: Sep-21 16:35:02.444 [PERSIST] Purging persisted models, except for the following teamIds ["TMW14CTRD"] 
+[09/21/19, 16:35:02:444] info: Sep-21 16:35:02.445 [FOCUS-EVENT] Client window blurred 
+[09/21/19, 16:35:02:448] info: Sep-21 16:35:02.448 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["downloads","environment","windows"] 
+[09/21/19, 16:35:02:471] info: Sep-21 16:35:02.470 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after workspace became focused 
+[09/21/19, 16:35:02:471] info: Sep-21 16:35:02.471 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because last_read >= latest && channel is read 
+[09/21/19, 16:35:02:471] info: Sep-21 16:35:02.471 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after window became focused 
+[09/21/19, 16:35:02:471] info: Sep-21 16:35:02.471 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because last_read >= latest && channel is read 
+[09/21/19, 16:35:02:471] info: Sep-21 16:35:02.471 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after window became focused 
+[09/21/19, 16:35:02:471] info: Sep-21 16:35:02.471 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because last_read >= latest && channel is read 
+[09/21/19, 16:35:02:486] info: Sep-21 16:35:02.486 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:02:486] info: Sep-21 16:35:02.487 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to prov_connected 
+[09/21/19, 16:35:02:486] info: Sep-21 16:35:02.487 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connected state for up to 60000 ms 
+[09/21/19, 16:35:02:518] info: Sep-21 16:35:02.492 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connected to prov_finalize 
+[09/21/19, 16:35:02:520] info: Sep-21 16:35:02.492 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_finalize state for up to 10000 ms 
+[09/21/19, 16:35:02:520] info: Sep-21 16:35:02.494 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_finalize to prov_finalizing 
+[09/21/19, 16:35:02:520] info: Sep-21 16:35:02.495 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_finalizing state for up to 10000 ms 
+[09/21/19, 16:35:02:520] info: Sep-21 16:35:02.496 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_finalizing to connected 
+[09/21/19, 16:35:02:520] info: Sep-21 16:35:02.496 [SOCKET-MANAGER] (TMW14CTRD) will stay in connected state for up to Infinity ms 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.497 [SOCKET-MANAGER] (TMW14CTRD) Connected to primary region 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.503 [MESSAGE-HISTORY] (TMW14CTRD) Resetting reachedEnd 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.511 [UNREAD-COUNTS] (TMW14CTRD) Fetching counts 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.512 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.512 client.counts called with reason: client-counts-api/fetchClientCounts 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.512 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.512 client.counts is ENQUEUED 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.512 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.512 client.counts is ACTIVE 
+[09/21/19, 16:35:02:521] info: Sep-21 16:35:02.513 [BOOT-QUEUE] TMW14CTRD noversion-1569076501.863 rtm.shouldReload is RESOLVED 
+[09/21/19, 16:35:02:522] info: Sep-21 16:35:02.514 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.932 emoji.list is RESOLVED 
+[09/21/19, 16:35:02:522] info: Sep-21 16:35:02.516 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:02:522] info: Sep-21 16:35:02.517 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:02:522] info: Sep-21 16:35:02.518 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.935 commands.list is RESOLVED 
+[09/21/19, 16:35:02:522] info: Sep-21 16:35:02.520 [API-Q] (TMW14CTRD) 754f5e3c-1569076501.944 api.getFlannelHttpUrl is RESOLVED 
+[09/21/19, 16:35:02:522] info: Sep-21 16:35:02.521 [UNKNOWN-FETCH-MANAGER] (TMW14CTRD) requesting UN9L3987K,USLACKBOT,UMN2G8QP4 (1) 
+[09/21/19, 16:35:02:525] info: Sep-21 16:35:02.526 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.524 team.whatsNew called with reason: boot-team 
+[09/21/19, 16:35:02:525] info: Sep-21 16:35:02.526 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.524 team.whatsNew is ENQUEUED 
+[09/21/19, 16:35:02:526] info: Sep-21 16:35:02.526 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.524 team.whatsNew is ACTIVE 
+[09/21/19, 16:35:02:539] info: Sep-21 16:35:02.539 [HISTORY-FETCH] (TMW14CTRD) Fetching history for message pane: CMW14D6BH oldest: 1567620868.026900 latest: null 
+[09/21/19, 16:35:02:540] info: Sep-21 16:35:02.540 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.540 conversations.history called with reason: message-pane/requestHistory 
+[09/21/19, 16:35:02:540] info: Sep-21 16:35:02.540 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.540 conversations.history is ENQUEUED 
+[09/21/19, 16:35:02:541] info: Sep-21 16:35:02.541 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.540 conversations.history is ACTIVE 
+[09/21/19, 16:35:02:542] info: Sep-21 16:35:02.542 [CHECK-UNREADS] (TMW14CTRD) unreadLineVisible updated: true -> false 
+[09/21/19, 16:35:02:550] info: Sep-21 16:35:02.550 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.550 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[09/21/19, 16:35:02:550] info: Sep-21 16:35:02.550 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.550 help.issues.list is ENQUEUED 
+[09/21/19, 16:35:02:551] info: Sep-21 16:35:02.550 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.550 help.issues.list is ACTIVE 
+[09/21/19, 16:35:02:552] info: Sep-21 16:35:02.553 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.071 promo.getEligibleOffer is RESOLVED 
+[09/21/19, 16:35:02:562] info: Sep-21 16:35:02.562 [PERSIST] Purged persisted models [] 
+[09/21/19, 16:35:02:562] info: Sep-21 16:35:02.562 [PERSIST] (TMW14CTRD) Persisting state to storage 
+[09/21/19, 16:35:02:566] info: Sep-21 16:35:02.567 [API-Q] (TMW14CTRD) noversion-1569076502.565 Flannel users/info called with reason: flannel-call:users/info 
+[09/21/19, 16:35:02:567] info: Sep-21 16:35:02.567 [API-Q] (TMW14CTRD) noversion-1569076502.565 Flannel users/info is ENQUEUED 
+[09/21/19, 16:35:02:567] info: Sep-21 16:35:02.567 [API-Q] (TMW14CTRD) noversion-1569076502.565 Flannel users/info is ACTIVE 
+[09/21/19, 16:35:02:569] info: Sep-21 16:35:02.569 [API-Q] (TMW14CTRD) noversion-1569076502.567 Flannel users/info called with reason: flannel-call:users/info 
+[09/21/19, 16:35:02:569] info: Sep-21 16:35:02.569 [API-Q] (TMW14CTRD) noversion-1569076502.567 Flannel users/info is ENQUEUED 
+[09/21/19, 16:35:02:570] info: Sep-21 16:35:02.569 [API-Q] (TMW14CTRD) noversion-1569076502.567 Flannel users/info is ACTIVE 
+[09/21/19, 16:35:02:571] info: Sep-21 16:35:02.571 [API-Q] (TMW14CTRD) noversion-1569076502.569 Flannel users/info called with reason: flannel-call:users/info 
+[09/21/19, 16:35:02:571] info: Sep-21 16:35:02.571 [API-Q] (TMW14CTRD) noversion-1569076502.569 Flannel users/info is ENQUEUED 
+[09/21/19, 16:35:02:574] info: Sep-21 16:35:02.571 [API-Q] (TMW14CTRD) noversion-1569076502.569 Flannel users/info is ACTIVE 
+[09/21/19, 16:35:02:575] info: Sep-21 16:35:02.575 [API-Q] (TMW14CTRD) noversion-1569076502.574 Flannel users/counts called with reason: flannel-call:users/counts 
+[09/21/19, 16:35:02:575] info: Sep-21 16:35:02.575 [API-Q] (TMW14CTRD) noversion-1569076502.574 Flannel users/counts is ENQUEUED 
+[09/21/19, 16:35:02:575] info: Sep-21 16:35:02.575 [API-Q] (TMW14CTRD) noversion-1569076502.574 Flannel users/counts is ACTIVE 
+[09/21/19, 16:35:02:576] info: Sep-21 16:35:02.576 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.237 apps.getSidebarPrompts is RESOLVED 
+[09/21/19, 16:35:02:576] info: Sep-21 16:35:02.576 [UNKNOWN-FETCH-MANAGER] (TMW14CTRD) requesting _all_actions (1) 
+[09/21/19, 16:35:02:579] info: Sep-21 16:35:02.579 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.576 apps.actions.list called with reason: fetch-app-actions 
+[09/21/19, 16:35:02:580] info: Sep-21 16:35:02.580 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.576 apps.actions.list is ENQUEUED 
+[09/21/19, 16:35:02:580] info: Sep-21 16:35:02.580 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.576 apps.actions.list is ACTIVE 
+[09/21/19, 16:35:02:580] info: Sep-21 16:35:02.581 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.239 promo.banner is RESOLVED 
+[09/21/19, 16:35:02:594] info: Sep-21 16:35:02.595 [DND] (TMW14CTRD) Preparing to fetch DND times for the following members: UN9L3987K 
+[09/21/19, 16:35:02:596] info: Sep-21 16:35:02.596 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.595 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[09/21/19, 16:35:02:596] info: Sep-21 16:35:02.596 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.595 dnd.info is ENQUEUED 
+[09/21/19, 16:35:02:597] info: Sep-21 16:35:02.596 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.595 dnd.info is ACTIVE 
+[09/21/19, 16:35:02:665] info: Sep-21 16:35:02.665 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.524 team.whatsNew is RESOLVED 
+[09/21/19, 16:35:02:666] info: Sep-21 16:35:02.667 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.512 client.counts is RESOLVED 
+[09/21/19, 16:35:02:672] info: Sep-21 16:35:02.673 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.550 help.issues.list is RESOLVED 
+[09/21/19, 16:35:02:675] info: Sep-21 16:35:02.675 [COUNTS] (TMW14CTRD) Applying counts to channels 
+[09/21/19, 16:35:02:682] info: Sep-21 16:35:02.683 [COUNTS] (TMW14CTRD) Threads has_unreads:false mention_count:0 
+[09/21/19, 16:35:02:683] info: Sep-21 16:35:02.683 [DESKTOP-MIDDLEWARE] (TMW14CTRD) Forwarding redux payload to desktop ["unreads"] 
+[09/21/19, 16:35:02:689] info: Sep-21 16:35:02.683 [COUNTS] (TMW14CTRD) Completed counts processing 
+[09/21/19, 16:35:02:699] info: Sep-21 16:35:02.699 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:02:704] info: Sep-21 16:35:02.704 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.576 apps.actions.list is RESOLVED 
+[09/21/19, 16:35:02:711] info: Sep-21 16:35:02.711 [PERSIST] Persistence setItem: : 147.7ms 
+[09/21/19, 16:35:02:712] info: Sep-21 16:35:02.711 [PERSIST] (TMW14CTRD) Persisted state: 149.1ms 
+[09/21/19, 16:35:02:712] info: Sep-21 16:35:02.712 [UNKNOWN-FETCH-MANAGER] (TMW14CTRD) received _all_actions (1) 
+[09/21/19, 16:35:02:859] info: Sep-21 16:35:02.860 [API-Q] (TMW14CTRD) noversion-1569076502.565 Flannel users/info is RESOLVED 
+[09/21/19, 16:35:02:865] info: Sep-21 16:35:02.866 [API-Q] (TMW14CTRD) noversion-1569076502.574 Flannel users/counts is RESOLVED 
+[09/21/19, 16:35:02:866] info: Sep-21 16:35:02.866 [API-Q] (TMW14CTRD) noversion-1569076502.567 Flannel users/info is RESOLVED 
+[09/21/19, 16:35:02:875] info: Sep-21 16:35:02.875 [API-Q] (TMW14CTRD) noversion-1569076502.569 Flannel users/info is RESOLVED 
+[09/21/19, 16:35:02:886] info: Sep-21 16:35:02.880 [SERVICE-WORKER] registration success {} 
+[09/21/19, 16:35:02:886] info: Sep-21 16:35:02.880 [SERVICE-WORKER-STATE] initial installing 
+[09/21/19, 16:35:02:887] info: Sep-21 16:35:02.881 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.595 dnd.info is RESOLVED 
+[09/21/19, 16:35:02:898] info: Sep-21 16:35:02.898 [UNKNOWN-FETCH-MANAGER] (TMW14CTRD) received UN9L3987K,USLACKBOT,UMN2G8QP4 (1) 
+[09/21/19, 16:35:02:902] info: Sep-21 16:35:02.902 [SERVICE-WORKER-STATE] change installed 22ms 
+[09/21/19, 16:35:02:903] info: Sep-21 16:35:02.902 [SERVICE-WORKER-STATE] change activating 
+[09/21/19, 16:35:02:903] info: Sep-21 16:35:02.902 [SERVICE-WORKER-STATE] change activated 0ms 
+[09/21/19, 16:35:02:903] info: Sep-21 16:35:02.903 [DND] (TMW14CTRD) Fetched DND info for the following member: UN9L3987K 
+[09/21/19, 16:35:02:906] info: Sep-21 16:35:02.906 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 16:35:02:907] info: Sep-21 16:35:02.907 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 16:35:02:973] info: Sep-21 16:35:02.973 [API-Q] (TMW14CTRD) 754f5e3c-1569076502.540 conversations.history is RESOLVED 
+[09/21/19, 16:35:02:981] info: Sep-21 16:35:02.981 [PINS] (TMW14CTRD) Pins count updated for channel CMW14D6BH: 0 
+[09/21/19, 16:35:02:982] info: Sep-21 16:35:02.982 [UNREAD-COUNTS] (TMW14CTRD) Counting unreads in CMW14D6BH because (1) timestamps added 
+[09/21/19, 16:35:02:982] info: Sep-21 16:35:02.983 [UNREAD-COUNTS] (TMW14CTRD) Checking unreads in CMW14D6BH after a new message 
+[09/21/19, 16:35:02:982] info: Sep-21 16:35:02.983 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (window_not_focused) 
+[09/21/19, 16:35:02:991] info: Sep-21 16:35:02.990 [MESSAGE-LIST] (TMW14CTRD) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 4 
+[09/21/19, 16:35:02:993] info: Sep-21 16:35:02.993 [CHECK-UNREADS] (TMW14CTRD) unreadLineVisible updated: false -> true 
+[09/21/19, 16:35:03:012] info: Sep-21 16:35:03.012 [API-Q] (TMW14CTRD) noversion-1569076503.010 Flannel users/info called with reason: flannel-call:users/info 
+[09/21/19, 16:35:03:012] info: Sep-21 16:35:03.012 [API-Q] (TMW14CTRD) noversion-1569076503.010 Flannel users/info is ENQUEUED 
+[09/21/19, 16:35:03:012] info: Sep-21 16:35:03.012 [API-Q] (TMW14CTRD) noversion-1569076503.010 Flannel users/info is ACTIVE 
+[09/21/19, 16:35:03:066] info: Sep-21 16:35:03.065 [API-Q] (TMW14CTRD) noversion-1569076503.010 Flannel users/info is RESOLVED 
+[09/21/19, 16:35:03:352] info: Sep-21 16:35:03.352 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after unread line became visible 
+[09/21/19, 16:35:03:367] info: Sep-21 16:35:03.352 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (window_not_focused) 
+[09/21/19, 16:35:07:260] info: Sep-21 16:35:07.257 [FOCUS-EVENT] Client window focused 
+[09/21/19, 16:35:07:280] info: Sep-21 16:35:07.280 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after window became focused 
+[09/21/19, 16:35:07:280] info: Sep-21 16:35:07.280 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because last_read >= latest && channel is read 
+[09/21/19, 16:35:07:282] info: Sep-21 16:35:07.282 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:07:291] info: Sep-21 16:35:07.291 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:07:303] info: Sep-21 16:35:07.303 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:09:354] info: Sep-21 16:35:09.351 [FOCUS-EVENT] Client window blurred 
+[09/21/19, 16:35:09:357] info: Sep-21 16:35:09.356 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:09:369] info: Sep-21 16:35:09.370 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:35:32:172] info: Sep-21 16:35:32.172 [CLOG] Logged event 
+[09/21/19, 16:35:32:328] info: Sep-21 16:35:32.328 [CLOG] Logged event 
+[09/21/19, 16:35:32:444] info: Sep-21 16:35:32.444 [CLOG] Logged event 
+[09/21/19, 16:35:32:554] info: Sep-21 16:35:32.554 [CLOG] Logged event 
+[09/21/19, 16:35:42:137] info: Sep-21 16:35:42.137 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:36:02:674] info: Sep-21 16:36:02.674 [CLOG] Logged event 
+[09/21/19, 16:36:07:675] info: Sep-21 16:36:07.675 [API-Q] (TMW14CTRD) 754f5e3c-1569076567.672 client.counts called with reason: client-counts-api/fetchClientCounts 
+[09/21/19, 16:36:07:675] info: Sep-21 16:36:07.675 [API-Q] (TMW14CTRD) 754f5e3c-1569076567.672 client.counts is ENQUEUED 
+[09/21/19, 16:36:07:677] info: Sep-21 16:36:07.677 [API-Q] (TMW14CTRD) 754f5e3c-1569076567.672 client.counts is ACTIVE 
+[09/21/19, 16:36:08:012] info: Sep-21 16:36:08.012 [API-Q] (TMW14CTRD) 754f5e3c-1569076567.672 client.counts is RESOLVED 
+[09/21/19, 16:36:08:673] info: Sep-21 16:36:08.673 [COUNTS] (TMW14CTRD) Applying counts to channels 
+[09/21/19, 16:36:08:675] info: Sep-21 16:36:08.675 [COUNTS] (TMW14CTRD) Recounted CMW14D6BH; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[09/21/19, 16:36:08:676] info: Sep-21 16:36:08.676 [COUNTS] (TMW14CTRD) Threads has_unreads:false mention_count:0 
+[09/21/19, 16:36:08:678] info: Sep-21 16:36:08.678 [COUNTS] (TMW14CTRD) Completed counts processing 
+[09/21/19, 16:37:03:671] info: Sep-21 16:37:03.671 [CLOG] Logged event 
+[09/21/19, 16:40:03:671] info: Sep-21 16:40:03.672 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 16:40:03:672] info: Sep-21 16:40:03.672 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 16:45:03:672] info: Sep-21 16:45:03.672 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 16:45:03:672] info: Sep-21 16:45:03.672 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 16:48:21:339] info: Sep-21 16:48:21.336 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:48:21:340] info: Sep-21 16:48:21.337 [FOCUS-EVENT] Client window focused 
+[09/21/19, 16:48:21:342] info: Sep-21 16:48:21.342 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:48:21:353] info: Sep-21 16:48:21.353 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after window became focused 
+[09/21/19, 16:48:21:353] info: Sep-21 16:48:21.353 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (window_not_focused) 
+[09/21/19, 16:48:21:355] info: Sep-21 16:48:21.354 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:48:21:358] info: Sep-21 16:48:21.358 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:48:21:390] info: Sep-21 16:48:21.390 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after window became focused 
+[09/21/19, 16:48:21:390] info: Sep-21 16:48:21.390 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because last_read >= latest && channel is read 
+[09/21/19, 16:48:22:380] info: Sep-21 16:48:22.379 [FOCUS-EVENT] Client window blurred 
+[09/21/19, 16:48:22:384] info: Sep-21 16:48:22.384 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:48:22:402] info: Sep-21 16:48:22.403 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 16:50:03:673] info: Sep-21 16:50:03.673 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 16:50:03:673] info: Sep-21 16:50:03.673 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 16:50:18:616] info: Sep-21 16:50:18.617 [CHECK-FOR-OLD-IMS] (TMW14CTRD) Within limit: 2 
+[09/21/19, 16:55:03:674] info: Sep-21 16:55:03.674 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 16:55:03:674] info: Sep-21 16:55:03.674 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:00:03:675] info: Sep-21 17:00:03.675 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:00:03:675] info: Sep-21 17:00:03.675 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:05:02:499] info: Sep-21 17:05:02.500 [CHECK-FOR-OLD-IMS] (TMW14CTRD) Within limit: 2 
+[09/21/19, 17:05:03:675] info: Sep-21 17:05:03.675 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:05:03:676] info: Sep-21 17:05:03.675 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:08:22:383] info: Sep-21 17:08:22.382 [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[09/21/19, 17:08:22:383] info: Sep-21 17:08:22.383 [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[09/21/19, 17:10:03:676] info: Sep-21 17:10:03.676 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:10:03:677] info: Sep-21 17:10:03.677 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:15:03:677] info: Sep-21 17:15:03.677 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:15:03:677] info: Sep-21 17:15:03.677 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:20:02:499] info: Sep-21 17:20:02.499 [CHECK-FOR-OLD-IMS] (TMW14CTRD) Within limit: 2 
+[09/21/19, 17:20:03:678] info: Sep-21 17:20:03.677 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:20:03:678] info: Sep-21 17:20:03.678 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:25:03:678] info: Sep-21 17:25:03.678 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:25:03:678] info: Sep-21 17:25:03.678 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:28:22:383] info: Sep-21 17:28:22.383 [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[09/21/19, 17:28:22:383] info: Sep-21 17:28:22.384 [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[09/21/19, 17:30:03:679] info: Sep-21 17:30:03.678 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:30:03:679] info: Sep-21 17:30:03.679 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:35:01:908] info: Sep-21 17:35:01.908 [PERSIST] (TMW14CTRD) Persisting state to storage 
+[09/21/19, 17:35:01:920] info: Sep-21 17:35:01.919 [PERSIST] Persistence setItem: : 10.8ms 
+[09/21/19, 17:35:01:920] info: Sep-21 17:35:01.919 [PERSIST] (TMW14CTRD) Persisted state: 12.0ms 
+[09/21/19, 17:35:02:499] info: Sep-21 17:35:02.500 [CHECK-FOR-OLD-IMS] (TMW14CTRD) Within limit: 2 
+[09/21/19, 17:35:03:680] info: Sep-21 17:35:03.680 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:35:03:680] info: Sep-21 17:35:03.680 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:40:03:680] info: Sep-21 17:40:03.680 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:40:03:681] info: Sep-21 17:40:03.681 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:45:03:681] info: Sep-21 17:45:03.681 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:45:03:682] info: Sep-21 17:45:03.681 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:48:22:384] info: Sep-21 17:48:22.384 [OPPORTUNISTIC_RELOADS] User has been blurred for 1200000 ms, evaluating whether or not we should reload opportunistically 
+[09/21/19, 17:48:22:384] info: Sep-21 17:48:22.384 [OPPORTUNISTIC_RELOADS] Client is still visible to the user even though it is not focused, will avoid updating 
+[09/21/19, 17:50:03:682] info: Sep-21 17:50:03.682 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:50:03:682] info: Sep-21 17:50:03.682 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 17:50:19:198] info: Sep-21 17:50:19.198 [CHECK-FOR-OLD-IMS] (TMW14CTRD) Within limit: 2 
+[09/21/19, 17:55:03:683] info: Sep-21 17:55:03.682 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 17:55:03:683] info: Sep-21 17:55:03.682 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 18:00:03:683] info: Sep-21 18:00:03.683 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 18:00:03:684] info: Sep-21 18:00:03.684 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 18:00:03:726] info: Sep-21 18:00:03.726 [MIN-VERSION] (TMW14CTRD) checking to see if we should reload 
+[09/21/19, 18:00:03:729] info: Sep-21 18:00:03.729 [API-Q] (TMW14CTRD) 754f5e3c-1569081603.726 rtm.shouldReload called with reason: no_reason_provided 
+[09/21/19, 18:00:03:730] info: Sep-21 18:00:03.729 [API-Q] (TMW14CTRD) 754f5e3c-1569081603.726 rtm.shouldReload is ENQUEUED 
+[09/21/19, 18:00:03:733] info: Sep-21 18:00:03.730 [API-Q] (TMW14CTRD) 754f5e3c-1569081603.726 rtm.shouldReload is ACTIVE 
+[09/21/19, 18:00:04:174] info: Sep-21 18:00:04.174 [API-Q] (TMW14CTRD) 754f5e3c-1569081603.726 rtm.shouldReload is RESOLVED 
+[09/21/19, 18:00:04:176] info: Sep-21 18:00:04.176 [MIN-VERSION] (TMW14CTRD) no need to reload 
+[09/21/19, 18:00:53:534] info: Sep-21 18:00:53.533 [CHANNEL-STATUS] (TMW14CTRD) Created channel CNNEMUNJ3 
+[09/21/19, 18:01:10:830] info: Sep-21 18:01:10.830 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:11:869] info: Sep-21 18:01:11.867 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:11:870] info: Sep-21 18:01:11.870 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:13:394] info: Sep-21 18:01:13.394 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:14:581] info: Sep-21 18:01:14.573 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:14:619] info: Sep-21 18:01:14.619 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:16:075] info: Sep-21 18:01:16.075 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:16:582] info: Sep-21 18:01:16.582 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:16:590] info: Sep-21 18:01:16.590 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:16:976] info: Sep-21 18:01:16.976 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:17:338] info: Sep-21 18:01:17.334 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:17:346] info: Sep-21 18:01:17.340 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:01:57:432] info: Sep-21 18:01:57.432 [CHANNEL-STATUS] (TMW14CTRD) Created channel CN7RHM93L 
+[09/21/19, 18:02:34:055] info: Sep-21 18:02:34.055 [SOCKET-MANAGER] (TMW14CTRD) Sleeping 
+[09/21/19, 18:02:34:055] info: Sep-21 18:02:34.055 [SOCKET-MANAGER] (TMW14CTRD) Changing from connected to sleep 
+[09/21/19, 18:02:34:057] info: Sep-21 18:02:34.057 [SOCKET-MANAGER] (TMW14CTRD) will stay in sleep state for up to 10000 ms 
+[09/21/19, 18:02:34:058] info: Sep-21 18:02:34.059 [SOCKET-MANAGER] (TMW14CTRD) Changing from sleep to sleeping 
+[09/21/19, 18:02:34:058] info: Sep-21 18:02:34.059 [SOCKET-MANAGER] (TMW14CTRD) will stay in sleeping state for up to 10000 ms 
+[09/21/19, 18:02:34:059] info: Sep-21 18:02:34.059 [SOCKET-MANAGER] (TMW14CTRD) Closing socket because #4102: client is going to sleep 
+[09/21/19, 18:02:34:062] info: Sep-21 18:02:34.059 [SOCKET-MANAGER] (TMW14CTRD) Changing from sleeping to asleep 
+[09/21/19, 18:02:34:062] info: Sep-21 18:02:34.059 [SOCKET-MANAGER] (TMW14CTRD) will stay in asleep state for up to Infinity ms 
+[09/21/19, 18:54:06:303] info: Sep-21 18:54:06.303 [SOCKET-MANAGER] (TMW14CTRD) Waking 
+[09/21/19, 18:54:06:303] info: Sep-21 18:54:06.303 [SOCKET-MANAGER] (TMW14CTRD) Changing from asleep to connect 
+[09/21/19, 18:54:06:303] info: Sep-21 18:54:06.303 [SOCKET-MANAGER] (TMW14CTRD) will stay in connect state for up to 10000 ms 
+[09/21/19, 18:54:06:306] info: Sep-21 18:54:06.303 [PERSIST] (TMW14CTRD) Persisting state to storage 
+[09/21/19, 18:54:06:310] info: Sep-21 18:54:06.306 [SOCKET-MANAGER] (TMW14CTRD) Changing from connect to checking_fast_reconnect 
+[09/21/19, 18:54:06:313] info: Sep-21 18:54:06.306 [SOCKET-MANAGER] (TMW14CTRD) will stay in checking_fast_reconnect state for up to 60000 ms 
+[09/21/19, 18:54:06:319] info: Sep-21 18:54:06.307 [SOCKET-MANAGER] (TMW14CTRD) Attempting to connect to primary region 
+[09/21/19, 18:54:06:320] info: Sep-21 18:54:06.307 [SOCKET-MANAGER] (TMW14CTRD) Changing from checking_fast_reconnect to prov_connect 
+[09/21/19, 18:54:06:320] info: Sep-21 18:54:06.307 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 18:54:06:320] info: Sep-21 18:54:06.309 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 18:54:06:320] info: Sep-21 18:54:06.309 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 18:54:06:326] error: WebSocket connection to 'wss://wss-primary.slack.com/?token=xoxc-⋯&bots_as_apps=1&no_query_on_subscribe=1&start_args=%3Fagent%3Dsonic%26agent_version%3D1569019205%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26only_self_subteams%3Dtrue%26ms_latest%3Dtrue%26connect_only%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[09/21/19, 18:54:06:326] warn: Sep-21 18:54:06.327 SOCKET-MANAGER (TMW14CTRD) Socket was closed because #1006: generic error 
+[09/21/19, 18:54:06:328] info: Sep-21 18:54:06.328 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to error 
+[09/21/19, 18:54:06:328] info: Sep-21 18:54:06.329 [SOCKET-MANAGER] (TMW14CTRD) will stay in error state for up to 10000 ms 
+[09/21/19, 18:54:06:329] info: Sep-21 18:54:06.330 [SOCKET-MANAGER] (TMW14CTRD) Changing from error to wait_for_rate_limit 
+[09/21/19, 18:54:06:330] info: Sep-21 18:54:06.330 [SOCKET-MANAGER] (TMW14CTRD) will stay in wait_for_rate_limit state for up to 120000 ms 
+[09/21/19, 18:54:06:330] info: Sep-21 18:54:06.331 [SOCKET-MANAGER] (TMW14CTRD) backing off: will wait for 371 ms 
+[09/21/19, 18:54:06:339] info: Sep-21 18:54:06.339 [PERSIST] Persistence setItem: : 34.5ms 
+[09/21/19, 18:54:06:340] info: Sep-21 18:54:06.340 [PERSIST] (TMW14CTRD) Persisted state: 36.3ms 
+[09/21/19, 18:54:06:702] info: Sep-21 18:54:06.702 [SOCKET-MANAGER] (TMW14CTRD) Changing from wait_for_rate_limit to connect 
+[09/21/19, 18:54:06:703] info: Sep-21 18:54:06.703 [SOCKET-MANAGER] (TMW14CTRD) will stay in connect state for up to 10000 ms 
+[09/21/19, 18:54:06:704] info: Sep-21 18:54:06.704 [SOCKET-MANAGER] (TMW14CTRD) Changing from connect to checking_fast_reconnect 
+[09/21/19, 18:54:06:704] info: Sep-21 18:54:06.704 [SOCKET-MANAGER] (TMW14CTRD) will stay in checking_fast_reconnect state for up to 60000 ms 
+[09/21/19, 18:54:06:704] info: Sep-21 18:54:06.704 [SOCKET-MANAGER] (TMW14CTRD) Attempting to connect to primary region 
+[09/21/19, 18:54:06:705] info: Sep-21 18:54:06.705 [SOCKET-MANAGER] (TMW14CTRD) Changing from checking_fast_reconnect to prov_connect 
+[09/21/19, 18:54:06:705] info: Sep-21 18:54:06.705 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 18:54:06:705] info: Sep-21 18:54:06.706 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 18:54:06:705] info: Sep-21 18:54:06.706 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 18:54:06:712] error: WebSocket connection to 'wss://wss-primary.slack.com/?token=xoxc-⋯&bots_as_apps=1&no_query_on_subscribe=1&start_args=%3Fagent%3Dsonic%26agent_version%3D1569019205%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26only_self_subteams%3Dtrue%26ms_latest%3Dtrue%26connect_only%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[09/21/19, 18:54:06:712] warn: Sep-21 18:54:06.713 SOCKET-MANAGER (TMW14CTRD) Socket was closed because #1006: generic error 
+[09/21/19, 18:54:06:713] info: Sep-21 18:54:06.713 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to error 
+[09/21/19, 18:54:06:714] info: Sep-21 18:54:06.713 [SOCKET-MANAGER] (TMW14CTRD) will stay in error state for up to 10000 ms 
+[09/21/19, 18:54:06:714] info: Sep-21 18:54:06.715 [SOCKET-MANAGER] (TMW14CTRD) Changing from error to wait_for_rate_limit 
+[09/21/19, 18:54:06:714] info: Sep-21 18:54:06.715 [SOCKET-MANAGER] (TMW14CTRD) will stay in wait_for_rate_limit state for up to 120000 ms 
+[09/21/19, 18:54:06:716] info: Sep-21 18:54:06.717 [SOCKET-MANAGER] (TMW14CTRD) backing off: will wait for 1057 ms 
+[09/21/19, 18:54:07:774] info: Sep-21 18:54:07.774 [SOCKET-MANAGER] (TMW14CTRD) Changing from wait_for_rate_limit to connect 
+[09/21/19, 18:54:07:776] info: Sep-21 18:54:07.776 [SOCKET-MANAGER] (TMW14CTRD) will stay in connect state for up to 10000 ms 
+[09/21/19, 18:54:07:779] info: Sep-21 18:54:07.779 [SOCKET-MANAGER] (TMW14CTRD) Changing from connect to checking_fast_reconnect 
+[09/21/19, 18:54:07:779] info: Sep-21 18:54:07.779 [SOCKET-MANAGER] (TMW14CTRD) will stay in checking_fast_reconnect state for up to 60000 ms 
+[09/21/19, 18:54:07:780] info: Sep-21 18:54:07.781 [SOCKET-MANAGER] (TMW14CTRD) Attempting to connect to primary region 
+[09/21/19, 18:54:07:780] info: Sep-21 18:54:07.781 [SOCKET-MANAGER] (TMW14CTRD) Changing from checking_fast_reconnect to prov_connect 
+[09/21/19, 18:54:07:780] info: Sep-21 18:54:07.781 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 18:54:07:781] info: Sep-21 18:54:07.781 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 18:54:07:781] info: Sep-21 18:54:07.781 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 18:54:07:787] error: WebSocket connection to 'wss://wss-primary.slack.com/?token=xoxc-⋯&bots_as_apps=1&no_query_on_subscribe=1&start_args=%3Fagent%3Dsonic%26agent_version%3D1569019205%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26only_self_subteams%3Dtrue%26ms_latest%3Dtrue%26connect_only%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[09/21/19, 18:54:07:787] warn: Sep-21 18:54:07.788 SOCKET-MANAGER (TMW14CTRD) Socket was closed because #1006: generic error 
+[09/21/19, 18:54:07:788] info: Sep-21 18:54:07.788 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to error 
+[09/21/19, 18:54:07:788] info: Sep-21 18:54:07.788 [SOCKET-MANAGER] (TMW14CTRD) Failed to connect 3 times; going into failover mode until we connect 
+[09/21/19, 18:54:07:788] info: Sep-21 18:54:07.788 [SOCKET-MANAGER] (TMW14CTRD) will stay in error state for up to 10000 ms 
+[09/21/19, 18:54:07:789] info: Sep-21 18:54:07.789 [SOCKET-MANAGER] (TMW14CTRD) Changing from error to wait_for_rate_limit 
+[09/21/19, 18:54:07:789] info: Sep-21 18:54:07.789 [SOCKET-MANAGER] (TMW14CTRD) will stay in wait_for_rate_limit state for up to 120000 ms 
+[09/21/19, 18:54:07:789] info: Sep-21 18:54:07.789 [SOCKET-MANAGER] (TMW14CTRD) backing off: will wait for 2824 ms 
+[09/21/19, 18:54:10:615] info: Sep-21 18:54:10.615 [SOCKET-MANAGER] (TMW14CTRD) Changing from wait_for_rate_limit to connect 
+[09/21/19, 18:54:10:617] info: Sep-21 18:54:10.617 [SOCKET-MANAGER] (TMW14CTRD) will stay in connect state for up to 10000 ms 
+[09/21/19, 18:54:10:619] info: Sep-21 18:54:10.620 [SOCKET-MANAGER] (TMW14CTRD) Changing from connect to checking_fast_reconnect 
+[09/21/19, 18:54:10:620] info: Sep-21 18:54:10.620 [SOCKET-MANAGER] (TMW14CTRD) will stay in checking_fast_reconnect state for up to 60000 ms 
+[09/21/19, 18:54:10:620] info: Sep-21 18:54:10.621 [SOCKET-MANAGER] (TMW14CTRD) Attempting to connect to backup region 
+[09/21/19, 18:54:10:620] info: Sep-21 18:54:10.621 [SOCKET-MANAGER] (TMW14CTRD) Changing from checking_fast_reconnect to prov_connect 
+[09/21/19, 18:54:10:620] info: Sep-21 18:54:10.621 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 18:54:10:621] info: Sep-21 18:54:10.621 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 18:54:10:621] info: Sep-21 18:54:10.621 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 18:54:10:627] error: WebSocket connection to 'wss://wss-backup.slack.com/?token=xoxc-⋯&bots_as_apps=1&no_query_on_subscribe=1&start_args=%3Fagent%3Dsonic%26agent_version%3D1569019205%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26only_self_subteams%3Dtrue%26ms_latest%3Dtrue%26connect_only%3Dtrue&is_backup=1&last_primary_region=eu-central-1&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[09/21/19, 18:54:10:627] warn: Sep-21 18:54:10.628 SOCKET-MANAGER (TMW14CTRD) Socket was closed because #1006: generic error 
+[09/21/19, 18:54:10:628] info: Sep-21 18:54:10.628 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to error 
+[09/21/19, 18:54:10:628] info: Sep-21 18:54:10.628 [SOCKET-MANAGER] (TMW14CTRD) will stay in error state for up to 10000 ms 
+[09/21/19, 18:54:10:628] info: Sep-21 18:54:10.629 [SOCKET-MANAGER] (TMW14CTRD) Changing from error to wait_for_rate_limit 
+[09/21/19, 18:54:10:628] info: Sep-21 18:54:10.629 [SOCKET-MANAGER] (TMW14CTRD) will stay in wait_for_rate_limit state for up to 120000 ms 
+[09/21/19, 18:54:10:629] info: Sep-21 18:54:10.630 [SOCKET-MANAGER] (TMW14CTRD) backing off: will wait for 2058 ms 
+[09/21/19, 18:54:12:687] info: Sep-21 18:54:12.687 [SOCKET-MANAGER] (TMW14CTRD) Changing from wait_for_rate_limit to connect 
+[09/21/19, 18:54:12:688] info: Sep-21 18:54:12.688 [SOCKET-MANAGER] (TMW14CTRD) will stay in connect state for up to 10000 ms 
+[09/21/19, 18:54:12:689] info: Sep-21 18:54:12.689 [SOCKET-MANAGER] (TMW14CTRD) Changing from connect to checking_fast_reconnect 
+[09/21/19, 18:54:12:689] info: Sep-21 18:54:12.689 [SOCKET-MANAGER] (TMW14CTRD) will stay in checking_fast_reconnect state for up to 60000 ms 
+[09/21/19, 18:54:12:689] info: Sep-21 18:54:12.690 [SOCKET-MANAGER] (TMW14CTRD) Attempting to connect to primary region 
+[09/21/19, 18:54:12:690] info: Sep-21 18:54:12.690 [SOCKET-MANAGER] (TMW14CTRD) Changing from checking_fast_reconnect to prov_connect 
+[09/21/19, 18:54:12:692] info: Sep-21 18:54:12.690 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 18:54:12:694] info: Sep-21 18:54:12.690 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 18:54:12:694] info: Sep-21 18:54:12.690 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 18:54:12:699] error: WebSocket connection to 'wss://wss-primary.slack.com/?token=xoxc-⋯&bots_as_apps=1&no_query_on_subscribe=1&start_args=%3Fagent%3Dsonic%26agent_version%3D1569019205%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26only_self_subteams%3Dtrue%26ms_latest%3Dtrue%26connect_only%3Dtrue&flannel=3&lazy_channels=1' failed: Error in connection establishment: net::ERR_INTERNET_DISCONNECTED 
+[09/21/19, 18:54:12:699] warn: Sep-21 18:54:12.699 SOCKET-MANAGER (TMW14CTRD) Socket was closed because #1006: generic error 
+[09/21/19, 18:54:12:700] info: Sep-21 18:54:12.701 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to error 
+[09/21/19, 18:54:12:700] info: Sep-21 18:54:12.701 [SOCKET-MANAGER] (TMW14CTRD) will stay in error state for up to 10000 ms 
+[09/21/19, 18:54:12:701] info: Sep-21 18:54:12.701 [SOCKET-MANAGER] (TMW14CTRD) Changing from error to wait_for_rate_limit 
+[09/21/19, 18:54:12:701] info: Sep-21 18:54:12.701 [SOCKET-MANAGER] (TMW14CTRD) will stay in wait_for_rate_limit state for up to 120000 ms 
+[09/21/19, 18:54:12:701] info: Sep-21 18:54:12.702 [SOCKET-MANAGER] (TMW14CTRD) backing off: will wait for 5895 ms 
+[09/21/19, 18:54:18:597] info: Sep-21 18:54:18.597 [SOCKET-MANAGER] (TMW14CTRD) Changing from wait_for_rate_limit to connect 
+[09/21/19, 18:54:18:599] info: Sep-21 18:54:18.598 [SOCKET-MANAGER] (TMW14CTRD) will stay in connect state for up to 10000 ms 
+[09/21/19, 18:54:18:602] info: Sep-21 18:54:18.602 [SOCKET-MANAGER] (TMW14CTRD) Changing from connect to checking_fast_reconnect 
+[09/21/19, 18:54:18:602] info: Sep-21 18:54:18.602 [SOCKET-MANAGER] (TMW14CTRD) will stay in checking_fast_reconnect state for up to 60000 ms 
+[09/21/19, 18:54:18:602] info: Sep-21 18:54:18.603 [SOCKET-MANAGER] (TMW14CTRD) Attempting to connect to backup region 
+[09/21/19, 18:54:18:603] info: Sep-21 18:54:18.603 [SOCKET-MANAGER] (TMW14CTRD) Changing from checking_fast_reconnect to prov_connect 
+[09/21/19, 18:54:18:603] info: Sep-21 18:54:18.603 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connect state for up to 10000 ms 
+[09/21/19, 18:54:18:603] info: Sep-21 18:54:18.604 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connect to prov_connecting 
+[09/21/19, 18:54:18:604] info: Sep-21 18:54:18.604 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connecting state for up to 35000 ms 
+[09/21/19, 18:54:19:047] info: Sep-21 18:54:19.046 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connecting to prov_connected 
+[09/21/19, 18:54:19:047] info: Sep-21 18:54:19.047 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_connected state for up to 60000 ms 
+[09/21/19, 18:54:19:054] info: Sep-21 18:54:19.054 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.052 client.boot called with reason: provisionally-connected 
+[09/21/19, 18:54:19:054] info: Sep-21 18:54:19.054 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.052 client.boot is ENQUEUED 
+[09/21/19, 18:54:19:055] info: Sep-21 18:54:19.054 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.052 client.boot is ACTIVE 
+[09/21/19, 18:54:19:603] info: Sep-21 18:54:19.602 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.052 client.boot is RESOLVED 
+[09/21/19, 18:54:19:605] info: Sep-21 18:54:19.605 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_connected to prov_finalize 
+[09/21/19, 18:54:19:605] info: Sep-21 18:54:19.605 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_finalize state for up to 10000 ms 
+[09/21/19, 18:54:19:607] info: Sep-21 18:54:19.607 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_finalize to prov_finalizing 
+[09/21/19, 18:54:19:607] info: Sep-21 18:54:19.607 [SOCKET-MANAGER] (TMW14CTRD) will stay in prov_finalizing state for up to 10000 ms 
+[09/21/19, 18:54:19:609] info: Sep-21 18:54:19.609 [SOCKET-MANAGER] (TMW14CTRD) Changing from prov_finalizing to connected 
+[09/21/19, 18:54:19:610] info: Sep-21 18:54:19.610 [SOCKET-MANAGER] (TMW14CTRD) will stay in connected state for up to Infinity ms 
+[09/21/19, 18:54:19:611] info: Sep-21 18:54:19.611 [SOCKET-MANAGER] (TMW14CTRD) Connected to backup region 
+[09/21/19, 18:54:19:613] warn: Sep-21 18:54:19.613 Desktop: 'desktop.accessibility.isAccessibilitySupportEnabled' is missing or not a function 
+[09/21/19, 18:54:19:637] info: Sep-21 18:54:19.637 [DND] (TMW14CTRD) Flushing and fetching fresh DND times for the following members after connecting to the websocket: UN9L3987K 
+[09/21/19, 18:54:19:639] info: Sep-21 18:54:19.639 [DND] (TMW14CTRD) Preparing to fetch DND times for the following members: UN9L3987K 
+[09/21/19, 18:54:19:640] info: Sep-21 18:54:19.640 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.639 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[09/21/19, 18:54:19:640] info: Sep-21 18:54:19.640 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.639 dnd.info is ENQUEUED 
+[09/21/19, 18:54:19:641] info: Sep-21 18:54:19.640 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.639 dnd.info is ACTIVE 
+[09/21/19, 18:54:19:641] info: Sep-21 18:54:19.641 [EVENTLOG] (TMW14CTRD) fr=false, lc=false, lt=1569081716.214600 
+[09/21/19, 18:54:19:641] info: Sep-21 18:54:19.641 [EVENTLOG] (TMW14CTRD) fetching events since 1569081716.214600 (3144 seconds ago) 
+[09/21/19, 18:54:19:642] info: Sep-21 18:54:19.642 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[09/21/19, 18:54:19:642] info: Sep-21 18:54:19.642 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history is ENQUEUED 
+[09/21/19, 18:54:19:642] info: Sep-21 18:54:19.642 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history is ACTIVE 
+[09/21/19, 18:54:19:644] info: Sep-21 18:54:19.644 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history called with reason: fetchEventLogHistoryImmediately 
+[09/21/19, 18:54:19:644] info: Sep-21 18:54:19.644 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history is ENQUEUED 
+[09/21/19, 18:54:19:644] info: Sep-21 18:54:19.644 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history is ACTIVE 
+[09/21/19, 18:54:19:646] info: Sep-21 18:54:19.646 [MESSAGE-HISTORY] (TMW14CTRD) Resetting reachedEnd 
+[09/21/19, 18:54:19:649] info: Sep-21 18:54:19.649 [UNREAD-COUNTS] (TMW14CTRD) Fetching counts 
+[09/21/19, 18:54:19:650] info: Sep-21 18:54:19.650 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.649 client.counts called with reason: client-counts-api/fetchClientCounts 
+[09/21/19, 18:54:19:650] info: Sep-21 18:54:19.650 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.649 client.counts is ENQUEUED 
+[09/21/19, 18:54:19:650] info: Sep-21 18:54:19.650 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.649 client.counts is ACTIVE 
+[09/21/19, 18:54:19:653] info: Sep-21 18:54:19.653 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.652 subteams.membership called with reason: user-group-membership-api/fetchUserGroupMembership 
+[09/21/19, 18:54:19:653] info: Sep-21 18:54:19.653 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.652 subteams.membership is ENQUEUED 
+[09/21/19, 18:54:19:653] info: Sep-21 18:54:19.653 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.652 subteams.membership is ACTIVE 
+[09/21/19, 18:54:19:653] info: Sep-21 18:54:19.654 [(TMW14CTRD)] Will collect additional stats for the first 10 minutes of this session 
+[09/21/19, 18:54:19:659] info: Sep-21 18:54:19.659 [HISTORY-FETCH] (TMW14CTRD) Fetching history for message pane: CMW14D6BH oldest: 1567620868.026900 latest: null 
+[09/21/19, 18:54:19:660] info: Sep-21 18:54:19.660 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.660 conversations.history called with reason: message-pane/requestHistory 
+[09/21/19, 18:54:19:660] info: Sep-21 18:54:19.660 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.660 conversations.history is ENQUEUED 
+[09/21/19, 18:54:19:661] info: Sep-21 18:54:19.661 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.660 conversations.history is ACTIVE 
+[09/21/19, 18:54:19:662] info: Sep-21 18:54:19.662 [CHECK-UNREADS] (TMW14CTRD) unreadLineVisible updated: true -> false 
+[09/21/19, 18:54:19:680] info: Sep-21 18:54:19.671 [API-Q] (TMW14CTRD) noversion-1569084859.670 Flannel users/counts called with reason: flannel-call:users/counts 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.671 [API-Q] (TMW14CTRD) noversion-1569084859.670 Flannel users/counts is ENQUEUED 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.672 [API-Q] (TMW14CTRD) noversion-1569084859.670 Flannel users/counts is ACTIVE 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.673 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.672 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.673 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.672 help.issues.list is ENQUEUED 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.674 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.672 help.issues.list is ACTIVE 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.675 [HISTORY-CFM] (TMW14CTRD) Re-fetching CMW14D6BH 1567114814.000600 - 1567620868.026900 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.677 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.676 conversations.history called with reason: channel-history-store.CFM.fetch 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.677 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.676 conversations.history is ENQUEUED 
+[09/21/19, 18:54:19:681] info: Sep-21 18:54:19.677 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.676 conversations.history is ACTIVE 
+[09/21/19, 18:54:19:766] info: Sep-21 18:54:19.766 [API-Q] (TMW14CTRD) noversion-1569084859.765 Flannel users/info called with reason: flannel-call:users/info 
+[09/21/19, 18:54:19:767] info: Sep-21 18:54:19.766 [API-Q] (TMW14CTRD) noversion-1569084859.765 Flannel users/info is ENQUEUED 
+[09/21/19, 18:54:19:767] info: Sep-21 18:54:19.767 [API-Q] (TMW14CTRD) noversion-1569084859.765 Flannel users/info is ACTIVE 
+[09/21/19, 18:54:19:773] info: Sep-21 18:54:19.774 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.639 dnd.info is RESOLVED 
+[09/21/19, 18:54:19:774] info: Sep-21 18:54:19.774 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history is RESOLVED 
+[09/21/19, 18:54:19:775] info: Sep-21 18:54:19.775 [DND] (TMW14CTRD) Fetched DND info for the following member: UN9L3987K 
+[09/21/19, 18:54:19:776] info: Sep-21 18:54:19.776 [DND] (TMW14CTRD) Checking for changes in DND status for the following members: UN9L3987K 
+[09/21/19, 18:54:19:776] info: Sep-21 18:54:19.776 [DND] (TMW14CTRD) Will check for changes in DND status again in 5 minutes 
+[09/21/19, 18:54:19:777] info: Sep-21 18:54:19.777 [EVENTLOG] (TMW14CTRD) processing 3 events out of a total set of 3 
+[09/21/19, 18:54:19:793] info: Sep-21 18:54:19.793 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.649 client.counts is RESOLVED 
+[09/21/19, 18:54:19:801] info: Sep-21 18:54:19.801 [COUNTS] (TMW14CTRD) Applying counts to channels 
+[09/21/19, 18:54:19:807] info: Sep-21 18:54:19.806 [COUNTS] (TMW14CTRD) Threads has_unreads:false mention_count:0 
+[09/21/19, 18:54:19:807] info: Sep-21 18:54:19.807 [COUNTS] (TMW14CTRD) Completed counts processing 
+[09/21/19, 18:54:19:818] info: Sep-21 18:54:19.818 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:54:19:936] info: Sep-21 18:54:19.935 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.652 subteams.membership is RESOLVED 
+[09/21/19, 18:54:19:937] info: Sep-21 18:54:19.936 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.642 ublockworkaround.history is RESOLVED 
+[09/21/19, 18:54:19:939] info: Sep-21 18:54:19.939 [USER_GROUP_MEMBERSHIP] (TMW14CTRD) Completed subteams.membership processing 
+[09/21/19, 18:54:19:952] info: Sep-21 18:54:19.951 [EVENTLOG] (TMW14CTRD) nothing to process 
+[09/21/19, 18:54:19:952] info: Sep-21 18:54:19.953 [EVENTLOG] (TMW14CTRD) fetched finish (cancelled? false) 
+[09/21/19, 18:54:19:952] info: Sep-21 18:54:19.953 [EVENTLOG] (TMW14CTRD) dispatching signal and clearing timestamp 
+[09/21/19, 18:54:19:974] info: Sep-21 18:54:19.974 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.660 conversations.history is RESOLVED 
+[09/21/19, 18:54:19:982] info: Sep-21 18:54:19.982 [UNREAD-COUNTS] (TMW14CTRD) Counting unreads in CMW14D6BH because (1) timestamps added 
+[09/21/19, 18:54:19:982] info: Sep-21 18:54:19.982 [UNREAD-COUNTS] (TMW14CTRD) Checking unreads in CMW14D6BH after a new message 
+[09/21/19, 18:54:19:982] info: Sep-21 18:54:19.982 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (window_not_focused) 
+[09/21/19, 18:54:19:987] info: Sep-21 18:54:19.987 [MESSAGE-LIST] (TMW14CTRD) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 4 
+[09/21/19, 18:54:19:987] info: Sep-21 18:54:19.988 [CHECK-UNREADS] (TMW14CTRD) unreadLineVisible updated: false -> true 
+[09/21/19, 18:54:19:994] info: Sep-21 18:54:19.994 [API-Q] (TMW14CTRD) noversion-1569084859.670 Flannel users/counts is RESOLVED 
+[09/21/19, 18:54:19:994] info: Sep-21 18:54:19.994 [API-Q] (TMW14CTRD) noversion-1569084859.765 Flannel users/info is RESOLVED 
+[09/21/19, 18:54:20:033] info: Sep-21 18:54:20.033 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.672 help.issues.list is RESOLVED 
+[09/21/19, 18:54:20:050] info: Sep-21 18:54:20.051 [API-Q] (TMW14CTRD) 754f5e3c-1569084859.676 conversations.history is RESOLVED 
+[09/21/19, 18:54:20:056] info: Sep-21 18:54:20.056 [UNREAD-COUNTS] (TMW14CTRD) Counting unreads in CMW14D6BH because (4) timestamps added 
+[09/21/19, 18:54:20:056] info: Sep-21 18:54:20.056 [UNREAD-COUNTS] (TMW14CTRD) Checking unreads in CMW14D6BH after a new message 
+[09/21/19, 18:54:20:056] info: Sep-21 18:54:20.056 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (window_not_focused) 
+[09/21/19, 18:54:20:343] info: Sep-21 18:54:20.343 [CHECK-UNREADS] (TMW14CTRD) Checking unreads after unread line became visible 
+[09/21/19, 18:54:20:344] info: Sep-21 18:54:20.343 [CHECK-UNREADS] (TMW14CTRD) Not marking CMW14D6BH because attention not on chat (window_not_focused) 
+[09/21/19, 18:54:20:707] info: Sep-21 18:54:20.693 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:54:20:710] info: Sep-21 18:54:20.707 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[09/21/19, 18:54:21:713] info: Sep-21 18:54:21.714 [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 

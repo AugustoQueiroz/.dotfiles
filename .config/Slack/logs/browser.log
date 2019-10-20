@@ -1,0 +1,991 @@
+[09/21/19, 16:34:16:089] info: ╔══════════════════════════════════════════════════════════════════════════════════╗ 
+[09/21/19, 16:34:15:961] info: ╔══════════════════════════════════════════════════════════════════════════════════╗ 
+[09/21/19, 16:34:16:089] info: ║      Slack 4.0.2, linux 5.3.0-arch1-1-ARCH on x64 at 09/21/19, 16:34:16:089      ║ 
+[09/21/19, 16:34:16:089] info: ╚══════════════════════════════════════════════════════════════════════════════════╝ 
+[09/21/19, 16:34:16:090] info: Configured logger via 
+{
+  "logLevel": "info"
+}
+[09/21/19, 16:34:16:090] info: Predefined values for process 
+{
+  "platform": "linux",
+  "NODE_ENV": "production",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.0.2",
+  "PACKAGE_MANIFEST.versionName": "The Final Countdown",
+  "PACKAGE_MANIFEST.commit": "8900f04",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[09/21/19, 16:34:15:962] info: ║      Slack 4.0.2, linux 5.3.0-arch1-1-ARCH on x64 at 09/21/19, 16:34:15:960      ║ 
+[09/21/19, 16:34:15:962] info: ╚══════════════════════════════════════════════════════════════════════════════════╝ 
+[09/21/19, 16:34:15:963] info: Configured logger via 
+{
+  "logLevel": "info"
+}
+[09/21/19, 16:34:15:963] info: Predefined values for process 
+{
+  "platform": "linux",
+  "NODE_ENV": "production",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.0.2",
+  "PACKAGE_MANIFEST.versionName": "The Final Countdown",
+  "PACKAGE_MANIFEST.commit": "8900f04",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[09/21/19, 16:34:16:055] info: Generated uuid and stored 
+{
+  "uuid": "43ae7c4f-f155-5bd7-bc60-21f115218fb7"
+}
+[09/21/19, 16:34:16:067] error: Locale: Tried to access systemLocale before application was ready 
+[09/21/19, 16:34:16:081] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/asq/.config/Slack/logs/recorded-trace
+[09/21/19, 16:34:16:083] info: Copying current Cookies into StaleCookies-0 
+[09/21/19, 16:34:16:085] warn: Unable to save StaleCookies 
+{
+  "error": {
+    "stack": "Error: ENOENT: no such file or directory, open '/home/asq/.config/Slack/Cookies'\n    at Object.openSync (fs.js:436:3)\n    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:160:31)\n    at Object.readFileSync (fs.js:341:35)\n    at Object.fs.readFileSync (ELECTRON_ASAR.js:580:40)\n    at copySmallFileSync (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:1:376245)\n    at saveStaleCookies (/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js:1:135664)\n    at handleChromiumCookieMigration (/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js:1:135792)\n    at main (/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js:1:149782)\n    at prepareBoot (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:1:1134966)",
+    "message": "ENOENT: no such file or directory, open '/home/asq/.config/Slack/Cookies'",
+    "errno": -2,
+    "syscall": "open",
+    "code": "ENOENT",
+    "path": "/home/asq/.config/Slack/Cookies"
+  },
+  "stackFrameString": "[{\"columnNumber\":3,\"lineNumber\":436,\"fileName\":\"fs.js\",\"functionName\":\"Object.openSync\",\"source\":\"    at Object.openSync (fs.js:436:3)\"},{\"columnNumber\":31,\"lineNumber\":160,\"fileName\":\"ELECTRON_ASAR.js\",\"functionName\":\"Object.module.(anonymous function) [as openSync]\",\"source\":\"    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:160:31)\"},{\"columnNumber\":35,\"lineNumber\":341,\"fileName\":\"fs.js\",\"functionName\":\"Object.readFileSync\",\"source\":\"    at Object.readFileSync (fs.js:341:35)\"},{\"columnNumber\":40,\"lineNumber\":580,\"fileName\":\"ELECTRON_ASAR.js\",\"functionName\":\"Object.fs.readFileSync\",\"source\":\"    at Object.fs.readFileSync (ELECTRON_ASAR.js:580:40)\"},{\"columnNumber\":376245,\"lineNumber\":1,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"copySmallFileSync\",\"source\":\"    at copySmallFileSync (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:1:376245)\"},{\"columnNumber\":135664,\"lineNumber\":1,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js\",\"functionName\":\"saveStaleCookies\",\"source\":\"    at saveStaleCookies (/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js:1:135664)\"},{\"columnNumber\":135792,\"lineNumber\":1,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js\",\"functionName\":\"handleChromiumCookieMigration\",\"source\":\"    at handleChromiumCookieMigration (/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js:1:135792)\"},{\"columnNumber\":149782,\"lineNumber\":1,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js\",\"functionName\":\"main\",\"source\":\"    at main (/usr/lib/slack/resources/app.asar/dist/main.1.4c2cecee3a95a2cae04b.js:1:149782)\"},{\"columnNumber\":1134966,\"lineNumber\":1,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"prepareBoot\",\"source\":\"    at prepareBoot (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:1:1134966)\"}]"
+}
+[09/21/19, 16:34:16:092] info: BrowserStore: Skip keychain access in Sonic 
+[09/21/19, 16:34:16:094] info: Store: persist/REHYDRATE 
+[09/21/19, 16:34:16:095] info: UpdaterEpics: Updates disabled because 
+{
+  "issues": [
+    "using Linux"
+  ]
+}
+[09/21/19, 16:34:16:096] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar"
+}
+[09/21/19, 16:34:16:117] warn: Failed to install protocol handler for slack:// links 
+[09/21/19, 16:34:16:140] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[09/21/19, 16:34:16:142] info: App: Welcome to Slack 0.0.0 x64 
+[09/21/19, 16:34:16:142] info: App load time: 0,300231010 
+[09/21/19, 16:34:16:148] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:299:12)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at maybeClose (internal/child_process.js:962:16)\n    at Socket.stream.socket.on (internal/child_process.js:381:11)\n    at Socket.emit (events.js:182:13)\n    at Socket.EventEmitter.emit (domain.js:442:20)\n    at Pipe._handle.close (net.js:606:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":299,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:299:12)\"},{\"columnNumber\":13,\"lineNumber\":182,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:182:13)\"},{\"columnNumber\":20,\"lineNumber\":442,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:442:20)\"},{\"columnNumber\":16,\"lineNumber\":962,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:962:16)\"},{\"columnNumber\":11,\"lineNumber\":381,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.stream.socket.on\",\"source\":\"    at Socket.stream.socket.on (internal/child_process.js:381:11)\"},{\"columnNumber\":13,\"lineNumber\":182,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:182:13)\"},{\"columnNumber\":20,\"lineNumber\":442,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:442:20)\"},{\"columnNumber\":12,\"lineNumber\":606,\"fileName\":\"net.js\",\"functionName\":\"Pipe._handle.close\",\"source\":\"    at Pipe._handle.close (net.js:606:12)\"}]"
+}
+[09/21/19, 16:34:16:162] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "appVersion": "4.0.2",
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "isSonic": true,
+  "platformVersion": {
+    "major": 5,
+    "minor": 3,
+    "build": 0
+  },
+  "releaseChannel": "prod",
+  "sessionId": "NDNhZTdjNGYtZjE1NS01YmQ3LWJjNjAtMjFmMTE1MjE4ZmI3XzE1NjkwNzY0NTYwNTY=",
+  "versionName": "The Final Countdown",
+  "linux": {
+    "os": "Arch Linux",
+    "name": "Arch Linux ",
+    "release": "",
+    "codename": "",
+    "desktopEnvironment": "X-Cinnamon"
+  }
+}
+[09/21/19, 16:34:16:164] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[09/21/19, 16:34:16:165] info: AutoLoginEpic: Checking for autologin. 
+[09/21/19, 16:34:16:166] info: Client Boot Config
+	localSettings: undefined
+	version: 4.0.2
+	productName: Slack
+	commandLine:  
+[09/21/19, 16:34:16:168] info: Store: UPDATE_SETTINGS 
+{
+  "launchOnStartup": false,
+  "hasRunApp": true
+}
+[09/21/19, 16:34:16:173] info: Store: TOKEN_FILE_PROCESSED 
+[09/21/19, 16:34:16:174] info: AutoLoginEpic: Processing token file for autologin. 
+[09/21/19, 16:34:16:174] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[09/21/19, 16:34:16:174] info: AutoLoginEpic: Setting default sign-in team to null 
+[09/21/19, 16:34:16:175] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[09/21/19, 16:34:16:180] info: WebContentsMediator: Attaching to new webContents 
+[09/21/19, 16:34:16:188] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "teamId": "app",
+  "state": "unloaded"
+}
+[09/21/19, 16:34:16:194] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[09/21/19, 16:34:16:196] info: Store: WINDOW_CREATED 
+{
+  "frame": {
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 560,
+      "y": 220,
+      "width": 800,
+      "height": 600
+    }
+  },
+  "type": "main",
+  "id": 1
+}
+[09/21/19, 16:34:16:231] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Command failed: lsb_release -a --short\n/bin/sh: lsb_release: command not found\n\n    at ChildProcess.exithandler (child_process.js:299:12)\n    at ChildProcess.emit (events.js:182:13)\n    at ChildProcess.EventEmitter.emit (domain.js:442:20)\n    at maybeClose (internal/child_process.js:962:16)\n    at Socket.stream.socket.on (internal/child_process.js:381:11)\n    at Socket.emit (events.js:182:13)\n    at Socket.EventEmitter.emit (domain.js:442:20)\n    at Pipe._handle.close (net.js:606:12)",
+    "message": "Command failed: lsb_release -a --short\n/bin/sh: lsb_release: command not found\n",
+    "killed": false,
+    "code": 127,
+    "signal": null,
+    "cmd": "lsb_release -a --short",
+    "stdout": "",
+    "stderr": "/bin/sh: lsb_release: command not found\n"
+  },
+  "stackFrameString": "[{\"columnNumber\":12,\"lineNumber\":299,\"fileName\":\"child_process.js\",\"functionName\":\"ChildProcess.exithandler\",\"source\":\"    at ChildProcess.exithandler (child_process.js:299:12)\"},{\"columnNumber\":13,\"lineNumber\":182,\"fileName\":\"events.js\",\"functionName\":\"ChildProcess.emit\",\"source\":\"    at ChildProcess.emit (events.js:182:13)\"},{\"columnNumber\":20,\"lineNumber\":442,\"fileName\":\"domain.js\",\"functionName\":\"ChildProcess.EventEmitter.emit\",\"source\":\"    at ChildProcess.EventEmitter.emit (domain.js:442:20)\"},{\"columnNumber\":16,\"lineNumber\":962,\"fileName\":\"internal/child_process.js\",\"functionName\":\"maybeClose\",\"source\":\"    at maybeClose (internal/child_process.js:962:16)\"},{\"columnNumber\":11,\"lineNumber\":381,\"fileName\":\"internal/child_process.js\",\"functionName\":\"Socket.stream.socket.on\",\"source\":\"    at Socket.stream.socket.on (internal/child_process.js:381:11)\"},{\"columnNumber\":13,\"lineNumber\":182,\"fileName\":\"events.js\",\"functionName\":\"Socket.emit\",\"source\":\"    at Socket.emit (events.js:182:13)\"},{\"columnNumber\":20,\"lineNumber\":442,\"fileName\":\"domain.js\",\"functionName\":\"Socket.EventEmitter.emit\",\"source\":\"    at Socket.EventEmitter.emit (domain.js:442:20)\"},{\"columnNumber\":12,\"lineNumber\":606,\"fileName\":\"net.js\",\"functionName\":\"Pipe._handle.close\",\"source\":\"    at Pipe._handle.close (net.js:606:12)\"}]"
+}
+[09/21/19, 16:34:16:740] info: Team boot count 
+{
+  "count": 1
+}
+[09/21/19, 16:34:16:990] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:17:235] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 136,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:17:238] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 136,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:17:455] info: Store: SET_NETWORK_STATUS online
+[09/21/19, 16:34:17:920] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[09/21/19, 16:34:17:920] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[09/21/19, 16:34:18:383] info: Store: REDUX_UPDATE_FROM_WEBAPP 
+{
+  "teams": {
+    "T00000000": {
+      "bootConfig": {
+        "isSonicDisabled": false,
+        "isSonicEnabled": false
+      },
+      "featureFlags": {},
+      "locale": "en-US",
+      "theme": {
+        "titlebarBackground": "#1F0020",
+        "titlebarTextColor": "#FFFFFF"
+      },
+      "unreads": {
+        "hasUnreads": false,
+        "unreadHighlights": 0,
+        "unreads": 0
+      }
+    }
+  }
+}
+[09/21/19, 16:34:18:384] info: enableSonicNextSessionEpic: Reset the boot Sonic preference 
+[09/21/19, 16:34:18:400] info: WebContents LifeCycle: webContents:1 from 'unloaded' to 'loaded' took 2210 ms 
+[09/21/19, 16:34:18:400] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded",
+  "teamId": "app"
+}
+[09/21/19, 16:34:18:401] info: initializeMainWindowEpic: Showing main window 
+{
+  "maximized": false,
+  "shouldHide": false,
+  "fullScreen": false
+}
+[09/21/19, 16:34:18:402] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:18:403] info: Store: MAIN_WINDOW_SHOWN 
+[09/21/19, 16:34:18:404] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 136,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[09/21/19, 16:34:18:405] info: UpdaterEpics: Updates disabled because 
+{
+  "issues": [
+    "using Linux"
+  ]
+}
+[09/21/19, 16:34:18:410] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:18:413] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:18:415] info: Store: REDUX_UPDATE_FROM_WEBAPP 
+{
+  "teams": {
+    "T00000000": {
+      "bootConfig": {
+        "isSonicDisabled": false,
+        "isSonicEnabled": true
+      }
+    }
+  }
+}
+[09/21/19, 16:34:18:415] info: enableSonicNextSessionEpic: Set to boot Sonic 'once' 
+[09/21/19, 16:34:18:417] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:18:420] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:19:414] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:19:479] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[09/21/19, 16:34:20:168] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:20:183] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:38:324] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:38:339] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:40:032] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:40:056] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:58:699] info: secondInstanceEpic: Received deep link protocol activation 
+[09/21/19, 16:34:58:699] info: Store: HANDLE_DEEP_LINK 
+{
+  "url": "slack://TMW14CTRD/magic-login/757135640227-bdbcae3ed2b382fb348c03b71cc26c5330810a42f64f775b08acadc1319d086e",
+  "causedLaunch": false
+}
+[09/21/19, 16:34:58:703] info: WebContentsMediator: Attaching to new webContents 
+[09/21/19, 16:34:58:703] info: MagicLogin: Making magic login API request to https://slack.com/api/ 
+[09/21/19, 16:34:58:718] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:58:727] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:58:878] info: WebContents LifeCycle: webContents:1 from 'loaded' to 'page-will-navigate' took 40478 ms 
+[09/21/19, 16:34:58:879] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "history": "[REDACTED]",
+  "state": "page-will-navigate",
+  "teamId": "app"
+}
+[09/21/19, 16:34:58:959] info: MagicLogin: added team TMW14CTRD 
+[09/21/19, 16:34:58:960] info: Application: handleDeepLink for magic login complete 
+[09/21/19, 16:34:59:555] info: Team boot count 
+{
+  "count": 2
+}
+[09/21/19, 16:34:59:556] info: attempting to restart service worker 
+[09/21/19, 16:34:59:556] info: sending debug protocol message 
+{
+  "message": "ServiceWorker.enable"
+}
+[09/21/19, 16:34:59:556] info: sending debug protocol message 
+{
+  "message": "ServiceWorker.stopAllWorkers"
+}
+[09/21/19, 16:34:59:557] info: sending debug protocol message 
+{
+  "message": "ServiceWorker.disable"
+}
+[09/21/19, 16:34:59:557] info: successfully restarted service worker 
+[09/21/19, 16:34:59:610] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:34:59:621] info: WebContents LifeCycle: webContents:1 from 'page-will-navigate' to 'loaded' took 743 ms 
+[09/21/19, 16:34:59:622] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded",
+  "teamId": "app"
+}
+[09/21/19, 16:35:00:119] info: WebContents LifeCycle: webContents:1 from 'loaded' to 'page-will-navigate' took 497 ms 
+[09/21/19, 16:35:00:119] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "history": "[REDACTED]",
+  "state": "page-will-navigate",
+  "teamId": "app"
+}
+[09/21/19, 16:35:00:143] info: Store: SET_NETWORK_STATUS online
+[09/21/19, 16:35:00:702] info: Team boot count 
+{
+  "count": 3
+}
+[09/21/19, 16:35:00:702] info: attempting to restart service worker 
+[09/21/19, 16:35:00:703] info: sending debug protocol message 
+{
+  "message": "ServiceWorker.enable"
+}
+[09/21/19, 16:35:00:704] info: sending debug protocol message 
+{
+  "message": "ServiceWorker.stopAllWorkers"
+}
+[09/21/19, 16:35:00:704] info: sending debug protocol message 
+{
+  "message": "ServiceWorker.disable"
+}
+[09/21/19, 16:35:00:704] info: successfully restarted service worker 
+[09/21/19, 16:35:00:760] info: WebContents LifeCycle: webContents:1 from 'page-will-navigate' to 'loaded' took 642 ms 
+[09/21/19, 16:35:00:760] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded",
+  "teamId": "app"
+}
+[09/21/19, 16:35:01:351] info: Store: SET_NETWORK_STATUS online
+[09/21/19, 16:35:01:508] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[09/21/19, 16:35:01:509] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[09/21/19, 16:35:01:853] info: Store: SYNC Bad or empty workspaces payload
+[09/21/19, 16:35:01:854] info: Store: SELECTION_CHANGED TMW14CTRD
+[09/21/19, 16:35:01:909] info: Store: REDUX_UPDATE_FROM_WEBAPP 
+{
+  "teams": {
+    "TMW14CTRD": {
+      "bootConfig": {
+        "isSonicDisabled": false,
+        "isSonicEnabled": false
+      },
+      "featureFlags": {},
+      "locale": "en-US",
+      "theme": {
+        "titlebarBackground": "#1F0020",
+        "titlebarTextColor": "#FFFFFF"
+      },
+      "unreads": {
+        "hasUnreads": false,
+        "unreadHighlights": 0,
+        "unreads": 0
+      }
+    }
+  }
+}
+[09/21/19, 16:35:01:911] info: Store: REDUX_UPDATE_FROM_WEBAPP 
+{
+  "teams": {
+    "TMW14CTRD": {
+      "bootConfig": {
+        "isSonicDisabled": false,
+        "isSonicEnabled": true
+      },
+      "theme": {
+        "titlebarBackground": "#1F0020",
+        "titlebarTextColor": "#FFFFFF"
+      }
+    }
+  }
+}
+[09/21/19, 16:35:01:922] info: Store: REDUX_UPDATE_FROM_WEBAPP 
+{
+  "teams": {
+    "TMW14CTRD": {
+      "theme": {
+        "titlebarBackground": "#1F0020",
+        "titlebarTextColor": "#FFFFFF"
+      },
+      "unreads": {
+        "hasUnreads": false,
+        "showBullet": true,
+        "unreadHighlights": 0,
+        "unreads": 0
+      }
+    }
+  }
+}
+[09/21/19, 16:35:01:954] info: Store: SYNC Synced 1 workspaces with IDs [TMW14CTRD]
+[09/21/19, 16:35:01:962] info: Store: SELECTION_CHANGED TMW14CTRD
+[09/21/19, 16:35:01:964] info: WebContents LifeCycle: webContents:1 from 'loaded' to 'webapp-loaded' took 1204 ms 
+[09/21/19, 16:35:01:964] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "webapp-loaded",
+  "teamId": "app"
+}
+[09/21/19, 16:35:01:964] info: EnterpriseStorageManager: Sending initial pull message 
+{
+  "teamId": "app"
+}
+[09/21/19, 16:35:02:068] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:02:293] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:02:316] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:02:666] info: Store: STORE_ENTERPRISE_ID_PAIR 
+{
+  "teamId": "app",
+  "enterpriseId": null
+}
+[09/21/19, 16:35:02:681] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:02:683] info: Store: REDUX_UPDATE_FROM_WEBAPP 
+{
+  "teams": {
+    "TMW14CTRD": {
+      "unreads": {
+        "hasUnreads": true,
+        "showBullet": true,
+        "unreadHighlights": 0,
+        "unreads": 1
+      }
+    }
+  }
+}
+[09/21/19, 16:35:02:774] info: WebContentsMediator: Attaching to new webContents 
+[09/21/19, 16:35:07:257] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:07:261] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:07:281] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:09:351] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:09:367] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:35:16:165] info: Store: UPDATE_SETTINGS 
+{
+  "lastClogForProxyInfo": 1569076516165
+}
+[09/21/19, 16:35:42:133] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:48:21:332] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:48:21:333] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:48:21:334] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:48:21:351] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:48:22:335] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[09/21/19, 16:48:22:378] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 16:48:22:387] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 17:13:38:839] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 17:13:58:844] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 17:51:39:199] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 17:52:19:205] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 17:53:59:216] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 17:54:19:220] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 17:54:39:224] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 17:58:59:258] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 17:59:39:262] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 18:00:39:270] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 18:00:59:273] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 18:01:10:823] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:11:863] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:11:866] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:12:867] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[09/21/19, 18:01:13:390] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:14:569] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:14:578] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:15:579] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[09/21/19, 18:01:16:071] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:16:578] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:16:580] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:16:972] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": true
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:17:331] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isMinimized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:17:333] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:01:18:334] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 449,
+      "y": 167,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[09/21/19, 18:01:19:276] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 18:01:59:281] info: Store: SET_SYSTEM_IDLE idle_taskbar
+[09/21/19, 18:02:34:051] info: Store: SET_SUSPEND_STATUS 
+[09/21/19, 18:54:06:295] info: Store: SET_SUSPEND_STATUS true
+[09/21/19, 18:54:06:298] info: Store: POWER_RESUMED 
+[09/21/19, 18:54:08:939] info: Store: SET_SYSTEM_IDLE active
+[09/21/19, 18:54:19:806] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "title": "[REDACTED]"
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:54:20:685] info: Attempted to close the window, hiding due to run from tray 
+[09/21/19, 18:54:20:685] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:54:20:687] info: Store: UPDATE_SETTINGS 
+{
+  "hasRunFromTray": true
+}
+[09/21/19, 18:54:20:689] info: Store: SHOW_TRAY_BALLOON 
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Advanced."
+}
+[09/21/19, 18:54:20:690] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit? 
+[09/21/19, 18:54:20:705] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFullScreen": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:54:21:711] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 136,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[09/21/19, 18:54:21:774] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 136,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
