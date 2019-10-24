@@ -85,7 +85,7 @@ let g:lightline = {
 " NERDTree
 map <C-t> :NERDTreeToggle<CR>
 "let NERDTreeShowHidden=0
-let NERDTreeWinSize=50
+let NERDTreeWinSize=30
 	" Automatically close nerdtree when closing last window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
