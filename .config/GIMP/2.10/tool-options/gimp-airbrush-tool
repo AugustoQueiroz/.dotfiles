@@ -1,0 +1,12 @@
+# GIMP gimp-airbrush-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Basic Dynamics")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 10)
+(brush-spacing 0.050000000000000003)
+(brush-hardness 0.25)
+(brush-force 0.37999999999999828)
+
+# end of gimp-airbrush-tool options

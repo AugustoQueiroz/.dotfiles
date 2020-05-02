@@ -1,0 +1,15 @@
+configuration {
+	modi: "run,window,drun,ssh,combi";
+	font: "Fira Code 15";
+	combi-modi: "run,window,drun,ssh";
+	lines: 1;
+	eh: 1;
+	width: 50;
+	padding: 20;
+	bw: 0;
+	bc: "$bg-color";
+	bg: "$bg-color";
+	fg: "$text-color";
+	hlbg: "$bg-color";
+	hlfg: "#ffebcb8b";
+}

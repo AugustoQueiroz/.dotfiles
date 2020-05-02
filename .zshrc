@@ -104,3 +104,21 @@ source $ZSH/oh-my-zsh.sh
 # Add custom things to path
 # 1. Add the gems to path
 export PATH=$PATH:/home/asq/.gem/ruby/2.6.0/bin:/etc/profile
+
+# Make firefox use wayland
+export MOZ_ENABLE_WAYLAND=1
+
+# Paths for INRIA projects
+export MAR_DIR=$HOME/Dev/inria/projects/marmotecoredev
+export Marmote_DIR=$HOME/Dev/inria/projects/marmotecoredev
+export Marmote_LIB_DIR=$HOME/Dev/inria/projects/marmotecoredev/lib
+
+export SBL_DIR=$HOME/Dev/inria/projects/sbl
+export PATH=$PATH:SBL_DIR/scripts
+export PATH=$PATH:SBL_DIR/Applications/PPIN_analysis/python
+export PATH=$PATH:SBL_DIR/Applications/PPIN_analysis/src/build
+
+export PAPER_DIR=$HOME/Dev/inria/projects/sc-cancer-omics
+
+export PYTHONPATH=$PYTHONPATH:$SBL_DIR/python/SBL
+export PYTHONPATH=$PYTHONPATH:$SBL_DIR/python

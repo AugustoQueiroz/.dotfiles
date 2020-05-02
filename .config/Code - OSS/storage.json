@@ -2,9 +2,25 @@
     "telemetry.machineId": "8070bf9df4179892d119c049f29292d3f6441df005d1915f8113f9d0677ec2b6",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/asq/Dev/inria/projects/sc-cancer-omics",
             "file:///home/asq/Dev"
         ],
         "files2": [
+            "file:///home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-sources-ucancer-top-320-entries_proteins-targets-apoptosis-103-entries_r0.01/hit-scores-all-sorted.txt",
+            "file:///home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-targets-apoptosis-103-entries_proteins-sources-ucancer-top-320-entries_r0.01/hit-scores-all-sorted.txt",
+            "file:///tmp/mozilla_asq0/hit-scores-all-sorted.txt",
+            "file:///home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/python/sbl-ppin-run-experiments.py",
+            "file:///tmp/mozilla_asq0/dumped_sources.txt",
+            "file:///home/asq/Dev/SecuriteLogicielle/PaperPresentation/notes.md",
+            "file:///home/asq/Dev/SecuriteLogicielle/TD7/smiley.txt",
+            "file:///home/asq/Dev/CVML/impacttests/impact_test.py",
+            "file:///home/asq/Dev/CVML/TD3/v1/main.py",
+            "file:///home/asq/Dev/CVML/misc/self_supervising_visual_learning_and_synthesis/notes.md",
+            "file:///home/asq/Dev/SecuriteLogicielle/TD6/frequencies.txt",
+            "file:///home/asq/Dev/SecuriteLogicielle/TD6/plaintext.txt",
+            "file:///home/asq/sales_de_queiroz_augusto_projet1/exec.txt",
+            "file:///home/asq/Dev/automatic-machines-simulator/programme.txt",
+            "file:///home/asq/.zshrc",
             "file:///home/asq/Dev/CompetitiveProgramming/Codeforces/Contest593-2/a.cpp",
             "file:///tmp/mozilla_asq0/Cronograma%20de%20projeto%20-%20Cronograma%20de%20projeto.csv",
             "file:///tmp/mozilla_asq0/codeToShow-1.py",
@@ -60,6 +76,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/asq/Dev/inria/projects/sc-cancer-omics",
+                                        "path": "/home/asq/Dev/inria/projects/sc-cancer-omics",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Dev/inria/projects/sc-cancer-omics"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/asq/Dev",
                                         "path": "/home/asq/Dev",
                                         "scheme": "file"
@@ -74,111 +101,111 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/Dev/CompetitiveProgramming/Codeforces/Contest593-2/a.cpp",
-                                        "path": "/home/asq/Dev/CompetitiveProgramming/Codeforces/Contest593-2/a.cpp",
+                                        "external": "file:///tmp/mozilla_asq0/hit-scores-all-sorted.txt",
+                                        "path": "/tmp/mozilla_asq0/hit-scores-all-sorted.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Dev/CompetitiveProgramming/Codeforces/Contest593-2/a.cpp"
+                                    "label": "/tmp/mozilla_asq0/hit-scores-all-sorted.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///tmp/mozilla_asq0/Cronograma%20de%20projeto%20-%20Cronograma%20de%20projeto.csv",
-                                        "path": "/tmp/mozilla_asq0/Cronograma de projeto - Cronograma de projeto.csv",
+                                        "external": "file:///home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-sources-ucancer-top-320-entries_proteins-targets-apoptosis-103-entries_r0.01/hit-scores-all-sorted.txt",
+                                        "path": "/home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-sources-ucancer-top-320-entries_proteins-targets-apoptosis-103-entries_r0.01/hit-scores-all-sorted.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/tmp/mozilla_asq0/Cronograma de projeto - Cronograma de projeto.csv"
+                                    "label": "~/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-sources-ucancer-top-320-entries_proteins-targets-apoptosis-103-entries_r0.01/hit-scores-all-sorted.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///tmp/mozilla_asq0/codeToShow-1.py",
-                                        "path": "/tmp/mozilla_asq0/codeToShow-1.py",
+                                        "external": "file:///home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-targets-apoptosis-103-entries_proteins-sources-ucancer-top-320-entries_r0.01/hit-scores-all-sorted.txt",
+                                        "path": "/home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-targets-apoptosis-103-entries_proteins-sources-ucancer-top-320-entries_r0.01/hit-scores-all-sorted.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/tmp/mozilla_asq0/codeToShow-1.py"
+                                    "label": "~/Dev/inria/projects/sbl/Applications/PPIN_analysis/demos/r0.01/MINT-ppin-human-july-2019_proteins-targets-apoptosis-103-entries_proteins-sources-ucancer-top-320-entries_r0.01/hit-scores-all-sorted.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///tmp/mozilla_asq0/codeToShow.py",
-                                        "path": "/tmp/mozilla_asq0/codeToShow.py",
+                                        "external": "file:///home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/python/sbl-ppin-run-experiments.py",
+                                        "path": "/home/asq/Dev/inria/projects/sbl/Applications/PPIN_analysis/python/sbl-ppin-run-experiments.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/tmp/mozilla_asq0/codeToShow.py"
+                                    "label": "~/Dev/inria/projects/sbl/Applications/PPIN_analysis/python/sbl-ppin-run-experiments.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/.local/share/cinnamon/desklets/TimeAndDate%40nightflame/metadata.json",
-                                        "path": "/home/asq/.local/share/cinnamon/desklets/TimeAndDate@nightflame/metadata.json",
+                                        "external": "file:///tmp/mozilla_asq0/dumped_sources.txt",
+                                        "path": "/tmp/mozilla_asq0/dumped_sources.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.local/share/cinnamon/desklets/TimeAndDate@nightflame/metadata.json"
+                                    "label": "/tmp/mozilla_asq0/dumped_sources.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/Desktop/vimrc",
-                                        "path": "/home/asq/Desktop/vimrc",
+                                        "external": "file:///home/asq/Dev/SecuriteLogicielle/PaperPresentation/notes.md",
+                                        "path": "/home/asq/Dev/SecuriteLogicielle/PaperPresentation/notes.md",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Desktop/vimrc"
+                                    "label": "~/Dev/SecuriteLogicielle/PaperPresentation/notes.md"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/.themes/ASQ-Minty/cinnamon/cinnamon.css",
-                                        "path": "/home/asq/.themes/ASQ-Minty/cinnamon/cinnamon.css",
+                                        "external": "file:///home/asq/Dev/SecuriteLogicielle/TD7/smiley.txt",
+                                        "path": "/home/asq/Dev/SecuriteLogicielle/TD7/smiley.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.themes/ASQ-Minty/cinnamon/cinnamon.css"
+                                    "label": "~/Dev/SecuriteLogicielle/TD7/smiley.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/.themes/ASQ-Minty/README.md",
-                                        "path": "/home/asq/.themes/ASQ-Minty/README.md",
+                                        "external": "file:///home/asq/Dev/CVML/impacttests/impact_test.py",
+                                        "path": "/home/asq/Dev/CVML/impacttests/impact_test.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.themes/ASQ-Minty/README.md"
+                                    "label": "~/Dev/CVML/impacttests/impact_test.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/.themes/ASQ-Minty/metadata.json",
-                                        "path": "/home/asq/.themes/ASQ-Minty/metadata.json",
+                                        "external": "file:///home/asq/Dev/CVML/TD3/v1/main.py",
+                                        "path": "/home/asq/Dev/CVML/TD3/v1/main.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.themes/ASQ-Minty/metadata.json"
+                                    "label": "~/Dev/CVML/TD3/v1/main.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/asq/.themes/New-Minty/cinnamon/cinnamon.css",
-                                        "path": "/home/asq/.themes/New-Minty/cinnamon/cinnamon.css",
+                                        "external": "file:///home/asq/Dev/CVML/misc/self_supervising_visual_learning_and_synthesis/notes.md",
+                                        "path": "/home/asq/Dev/CVML/misc/self_supervising_visual_learning_and_synthesis/notes.md",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.themes/New-Minty/cinnamon/cinnamon.css"
+                                    "label": "~/Dev/CVML/misc/self_supervising_visual_learning_and_synthesis/notes.md"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -252,7 +279,7 @@
                                 },
                                 {
                                     "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "&&Keyboard Shortcuts"
+                                    "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
@@ -410,11 +437,11 @@
                         "label": "Move &&Line Down"
                     },
                     {
-                        "id": "vscode.menubar.separator"
+                        "id": "editor.action.duplicateSelection",
+                        "label": "&&Duplicate Selection"
                     },
                     {
-                        "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
+                        "id": "vscode.menubar.separator"
                     },
                     {
                         "id": "editor.action.insertCursorAbove",
@@ -439,6 +466,17 @@
                     {
                         "id": "editor.action.selectHighlights",
                         "label": "Select All &&Occurrences"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.toggleMultiCursorModifier",
+                        "label": "Switch to Ctrl+Click for Multi-Cursor"
+                    },
+                    {
+                        "id": "editor.action.toggleColumnSelection",
+                        "label": "Column &&Selection Mode"
                     }
                 ]
             },
@@ -495,6 +533,11 @@
                                     "checked": true
                                 },
                                 {
+                                    "id": "workbench.action.toggleEditorVisibility",
+                                    "label": "Show &&Editor Area",
+                                    "checked": true
+                                },
+                                {
                                     "id": "workbench.action.togglePanel",
                                     "label": "Show &&Panel"
                                 },
@@ -506,7 +549,11 @@
                                     "label": "&&Move Side Bar Right"
                                 },
                                 {
-                                    "id": "workbench.action.togglePanelPosition",
+                                    "id": "workbench.action.positionPanelLeft",
+                                    "label": "Move Panel Left"
+                                },
+                                {
+                                    "id": "workbench.action.positionPanelRight",
                                     "label": "Move Panel Right"
                                 },
                                 {
@@ -610,7 +657,7 @@
                     },
                     {
                         "id": "workbench.view.debug",
-                        "label": "&&Debug"
+                        "label": "&&Run"
                     },
                     {
                         "id": "workbench.view.extensions",
@@ -654,7 +701,8 @@
                     },
                     {
                         "id": "editor.action.toggleRenderWhitespace",
-                        "label": "&&Render Whitespace"
+                        "label": "&&Render Whitespace",
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleRenderControlCharacter",
@@ -698,6 +746,28 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.openNextRecentlyUsedEditor",
+                                    "label": "&&Next Used Editor"
+                                },
+                                {
+                                    "id": "workbench.action.openPreviousRecentlyUsedEditor",
+                                    "label": "&&Previous Used Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.nextEditorInGroup",
+                                    "label": "&&Next Editor in Group"
+                                },
+                                {
+                                    "id": "workbench.action.previousEditorInGroup",
+                                    "label": "&&Previous Editor in Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openNextRecentlyUsedEditorInGroup",
                                     "label": "&&Next Used Editor in Group"
                                 },
@@ -723,45 +793,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -782,11 +861,15 @@
                     },
                     {
                         "id": "workbench.action.gotoSymbol",
-                        "label": "Go to &&Symbol in File..."
+                        "label": "Go to &&Symbol in Editor..."
                     },
                     {
-                        "id": "editor.action.goToDeclaration",
+                        "id": "editor.action.revealDefinition",
                         "label": "Go to &&Definition"
+                    },
+                    {
+                        "id": "editor.action.revealDeclaration",
+                        "label": "Go to &&Declaration"
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
@@ -794,7 +877,11 @@
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementation"
+                        "label": "Go to &&Implementations"
+                    },
+                    {
+                        "id": "editor.action.goToReferences",
+                        "label": "Go to &&References"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -831,7 +918,7 @@
                     }
                 ]
             },
-            "Debug": {
+            "Run": {
                 "items": [
                     {
                         "id": "workbench.action.debug.start",
@@ -839,7 +926,7 @@
                     },
                     {
                         "id": "workbench.action.debug.run",
-                        "label": "Start &&Without Debugging"
+                        "label": "Run &&Without Debugging"
                     },
                     {
                         "id": "workbench.action.debug.stop",
@@ -1014,10 +1101,6 @@
                     {
                         "id": "workbench.action.openDocumentationUrl",
                         "label": "&&Documentation"
-                    },
-                    {
-                        "id": "update.showCurrentReleaseNotes",
-                        "label": "&&Release Notes"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1339,13 +1422,15 @@
                 "label": "Ctrl+PageUp",
                 "userSettingsLabel": "ctrl+pageup"
             },
-            "workbench.action.openNextRecentlyUsedEditorInGroup": {
-                "label": "Ctrl+Tab",
-                "userSettingsLabel": "ctrl+tab"
+            "workbench.action.nextEditorInGroup": {
+                "label": "Ctrl+K Ctrl+PageDown",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+pagedown"
             },
-            "workbench.action.openPreviousRecentlyUsedEditorInGroup": {
-                "label": "Ctrl+Shift+Tab",
-                "userSettingsLabel": "ctrl+shift+tab"
+            "workbench.action.previousEditorInGroup": {
+                "label": "Ctrl+K Ctrl+PageUp",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+pageup"
             },
             "workbench.action.focusFirstEditorGroup": {
                 "label": "Ctrl+1",
@@ -1399,9 +1484,17 @@
                 "label": "Ctrl+Shift+O",
                 "userSettingsLabel": "ctrl+shift+o"
             },
+            "editor.action.revealDefinition": {
+                "label": "F12",
+                "userSettingsLabel": "f12"
+            },
             "editor.action.goToImplementation": {
                 "label": "Ctrl+F12",
                 "userSettingsLabel": "ctrl+f12"
+            },
+            "editor.action.goToReferences": {
+                "label": "Shift+F12",
+                "userSettingsLabel": "shift+f12"
             },
             "workbench.action.gotoLine": {
                 "label": "Ctrl+G",
@@ -1492,16 +1585,16 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/asq",
+    "pickerWorkingDir": "/home/asq/Dev/inria/projects",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/asq/.config/Code - OSS/Backups/1571321600041",
+            "backupPath": "/home/asq/.config/Code - OSS/Backups/1587632902500",
             "uiState": {
-                "mode": 1,
-                "x": 1284,
-                "y": 4,
-                "width": 632,
-                "height": 1052
+                "mode": 0,
+                "x": 507,
+                "y": 31,
+                "width": 958,
+                "height": 1008
             }
         },
         "openedWindows": []

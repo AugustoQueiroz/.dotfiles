@@ -1,0 +1,21 @@
+00:00:00.177517 VirtualBox GUI VM Selector Window 6.0.14 r132055 linux.amd64 (Nov 26 2019 10:25:45) release log
+00:00:00.177520 Log opened 2020-02-12T14:15:46.123305000Z
+00:00:00.177520 Build Type: release
+00:00:00.177523 OS Product: Linux
+00:00:00.177525 OS Release: 5.4.1-arch1-1
+00:00:00.177527 OS Version: #1 SMP PREEMPT Fri, 29 Nov 2019 13:37:24 +0000
+00:00:00.177551 DMI Product Name: XPS 15 9575
+00:00:00.177562 DMI Product Version: 
+00:00:00.177619 Host RAM: 15735MB (15.3GB) total, 13136MB (12.8GB) available
+00:00:00.177626 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.177627 Process ID: 7317
+00:00:00.177628 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.177658 Qt version: 5.13.2
+00:00:00.221749 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.486431 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1040
+00:00:00.501629 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.828028 GUI: UIInvisibleWindow::sltFallback: Some event haven't came. Screen: 0, work area: 0x0 x 1920x1040
+00:00:54.553658 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:51.271472 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:01:51.571031 2D support test succeeded
+00:01:51.663279 GUI: UIMediumEnumerator: Medium-enumeration finished!

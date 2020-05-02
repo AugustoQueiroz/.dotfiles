@@ -1,0 +1,21 @@
+configuration {
+	modi: "drun,run,ssh,combi";
+	combi-modi: "drun,run,ssh";
+
+	font: "Fira Code 15";
+	theme: "~/.config/rofi/custom-nord.rasi";
+
+	lines: 5;
+	fixed-num-lines: false;
+	dynamic: true;
+	eh: 1;
+	width: 50;
+	padding: 20;
+	bw: 0;
+	yoffset: -100;
+
+	show-icons: true;
+	display-combi: "🔍";
+	display-run: "$";
+	display-drun: "";
+}

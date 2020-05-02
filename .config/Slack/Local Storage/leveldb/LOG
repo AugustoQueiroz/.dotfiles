@@ -1,1 +1,48 @@
-2019/09/21-16:34:16.596 4413 Reusing MANIFEST leveldb/MANIFEST-000001
+2020/04/28-14:02:45.043 7d27 Reusing MANIFEST leveldb/MANIFEST-000001
+2020/04/28-14:02:45.043 7d27 Recovering log #59
+2020/04/28-14:02:45.043 7d27 Reusing old log leveldb/000059.log 
+2020/04/28-18:25:45.052 b201 Level-0 table #64: started
+2020/04/28-18:25:45.058 b201 Level-0 table #64: 9214 bytes OK
+2020/04/28-18:25:45.065 b201 Delete type=0 #59
+2020/04/29-11:41:02.874 15ee7 Level-0 table #66: started
+2020/04/29-11:41:02.887 15ee7 Level-0 table #66: 7540 bytes OK
+2020/04/29-11:41:02.892 15ee7 Delete type=0 #63
+2020/04/29-18:55:02.875 1f3dc Level-0 table #68: started
+2020/04/29-18:55:02.890 1f3dc Level-0 table #68: 7556 bytes OK
+2020/04/29-18:55:02.894 1f3dc Delete type=0 #65
+2020/04/30-13:03:37.651 27c13 Level-0 table #70: started
+2020/04/30-13:03:37.663 27c13 Level-0 table #70: 7548 bytes OK
+2020/04/30-13:03:37.668 27c13 Delete type=0 #67
+2020/04/30-13:03:37.668 27cd5 Compacting 4@0 + 1@1 files
+2020/04/30-13:03:37.673 27cd5 Generated table #71@0: 14 keys, 1612 bytes
+2020/04/30-13:03:37.673 27cd5 Compacted 4@0 + 1@1 files => 1612 bytes
+2020/04/30-13:03:37.676 27cd5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/04/30-13:03:37.676 27cd5 Delete type=2 #66
+2020/04/30-13:03:37.676 27cd5 Delete type=2 #70
+2020/04/30-13:03:37.677 27cd5 Delete type=2 #68
+2020/04/30-13:03:37.677 27cd5 Delete type=2 #64
+2020/04/30-13:03:37.677 27cd5 Delete type=2 #61
+2020/04/30-20:17:37.644 2e8fc Level-0 table #73: started
+2020/04/30-20:17:37.657 2e8fc Level-0 table #73: 7554 bytes OK
+2020/04/30-20:17:37.662 2e8fc Delete type=0 #69
+2020/05/01-12:46:41.968 35a70 Level-0 table #75: started
+2020/05/01-12:46:41.978 35a70 Level-0 table #75: 8489 bytes OK
+2020/05/01-12:46:41.979 35a70 Delete type=0 #72
+2020/05/01-21:43:03.810 39a74 Level-0 table #77: started
+2020/05/01-21:43:03.814 39a74 Level-0 table #77: 7540 bytes OK
+2020/05/01-21:43:03.819 39a74 Delete type=0 #74
+2020/05/02-04:57:03.796 3e0a3 Level-0 table #79: started
+2020/05/02-04:57:03.799 3e0a3 Level-0 table #79: 7538 bytes OK
+2020/05/02-04:57:03.802 3e0a3 Delete type=0 #76
+2020/05/02-04:57:03.802 3cbb5 Compacting 4@0 + 1@1 files
+2020/05/02-04:57:03.805 3cbb5 Generated table #80@0: 16 keys, 1666 bytes
+2020/05/02-04:57:03.805 3cbb5 Compacted 4@0 + 1@1 files => 1666 bytes
+2020/05/02-04:57:03.806 3cbb5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/05/02-04:57:03.807 3cbb5 Delete type=2 #71
+2020/05/02-04:57:03.807 3cbb5 Delete type=2 #73
+2020/05/02-04:57:03.807 3cbb5 Delete type=2 #79
+2020/05/02-04:57:03.807 3cbb5 Delete type=2 #77
+2020/05/02-04:57:03.808 3cbb5 Delete type=2 #75
+2020/05/02-12:11:03.802 400ff Level-0 table #82: started
+2020/05/02-12:11:03.808 400ff Level-0 table #82: 7540 bytes OK
+2020/05/02-12:11:03.812 400ff Delete type=0 #78

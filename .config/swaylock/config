@@ -1,0 +1,27 @@
+
+color=F6F8FF
+
+inside-color=272D2D
+inside-clear-color=272D2D
+inside-caps-lock-color=272D2D
+inside-ver-color=272D2D
+inside-wrong-color=272D2D
+
+line-uses-inside
+
+key-hl-color=FFE74C
+bs-hl-color=DF2935
+
+ring-color=272D2D
+ring-clear-color=FF99C9
+ring-caps-lock-color=5BC3EB
+ring-ver-color=5BC3EB
+ring-wrong-color=ED1C24
+
+font=Fira Code
+font-size=12
+text-color=F6F8FF
+text-clear-color=F6F8FF
+text-caps-lock-color=F6F8FF
+text-ver-color=F6F8FF
+text-wrong-color=F6F8FF

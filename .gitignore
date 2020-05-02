@@ -1,3 +1,6 @@
 .config/discord/
 .config/spotify/
 .config/Slack/
+
+logs
+*Cache*

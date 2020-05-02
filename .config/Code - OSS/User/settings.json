@@ -1,0 +1,14 @@
+{
+    "editor.fontFamily": "'Fira Code Retina', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "sshfs.configs": [
+        {
+            "host": "127.0.0.1",
+            "name": "vm_isle",
+            "password": "root",
+            "port": 2222,
+            "putty": true,
+            "username": "root"
+        }
+    ]
+}

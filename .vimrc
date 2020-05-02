@@ -53,25 +53,24 @@ call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 Plug 'https://github.com/scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'
-Plug 'https://github.com/tpope/vim-eunuch'
-Plug 'https://github.com/tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'wakatime/vim-wakatime'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-eunuch'
 Plug 'ryanoasis/vim-devicons'
 Plug 'jiangmiao/auto-pairs'
-Plug 'valloric/youcompleteme'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'luochen1990/rainbow'
 Plug 'majutsushi/tagbar'
-Plug 'heavenshell/vim-pydocstring'
-Plug 'vim-scripts/DoxygenToolkit.vim'
-Plug 'benmills/vimux'
+Plug '~/.fzf'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'vim-scripts/fountain.vim'
+Plug 'parkr/vim-jekyll'
 
 call plug#end()
 
@@ -84,7 +83,7 @@ let g:lightline = {
 
 " NERDTree
 map <C-t> :NERDTreeToggle<CR>
-"let NERDTreeShowHidden=0
+let NERDTreeShowHidden=0
 let NERDTreeWinSize=30
 	" Automatically close nerdtree when closing last window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -109,16 +108,16 @@ map <C-]> :RainbowToggle<CR>
 " Doxygen Toolkit
 let g:DoxygenToolkit_authorName="Augusto Queiroz"
 map <C-?> :Dox<CR>
-
-" You Complete Me
-let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
+map <BS> <nop>
 
 " Remap ctrl+b to build and run project
 nnoremap <leader>b :VimuxRunCommand("make")<CR>
 nnoremap <leader>r :VimuxRunCommand("make run")<CR>
 nnoremap <leader>c :VimuxRunCommand("make clean")<CR>
 nnoremap <leader>s :VimuxRunCommand("^C")<CR>
+
+" FZF
+nnoremap <leader>o :FZF<CR>
 
 " Things that depend on color
 colorscheme nord

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/asq/.key_fix
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=No Caps = Better Caps
+Comment[en_US]=Changes the Caps Lock key to be Esc when pressed alone, or Ctrl when pressed in a combination
+X-GNOME-Autostart-Delay=0

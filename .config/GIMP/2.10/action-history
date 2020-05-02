@@ -1,0 +1,10 @@
+# GIMP action-history
+
+(history-item "file-open" 4)
+(history-item "file-quit" 1)
+(history-item "file-open-as-layers" 0)
+(history-item "image-new" 0)
+(history-item "edit-clear" 0)
+(history-item "tools-zoom" 1)
+
+# end of action-history

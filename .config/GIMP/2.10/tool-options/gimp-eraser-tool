@@ -1,0 +1,11 @@
+# GIMP gimp-eraser-tool options
+
+(brush "2. Hardness 025")
+(dynamics "Basic Dynamics")
+(palette "Color History")
+(brush-size 10)
+(brush-spacing 0.050000000000000003)
+(brush-hardness 0.25)
+(brush-force 0.37999999999999828)
+
+# end of gimp-eraser-tool options

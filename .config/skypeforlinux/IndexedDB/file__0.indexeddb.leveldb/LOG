@@ -1,0 +1,12 @@
+2020/04/24-14:16:11.599 12e64 Reusing MANIFEST /home/asq/.dotfiles/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2020/04/24-14:16:11.600 12e64 Recovering log #4
+2020/04/24-14:16:11.618 12e64 Reusing old log /home/asq/.dotfiles/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2020/04/24-14:34:36.243 12fc5 Level-0 table #8: started
+2020/04/24-14:34:36.255 12fc5 Level-0 table #8: 1749834 bytes OK
+2020/04/24-14:34:36.257 12fc5 Delete type=0 #4
+2020/04/24-14:57:44.568 12fc5 Compacting 1@1 + 1@2 files
+2020/04/24-14:57:44.582 12fc5 Generated table #9@1: 1933 keys, 604211 bytes
+2020/04/24-14:57:44.582 12fc5 Compacted 1@1 + 1@2 files => 604211 bytes
+2020/04/24-14:57:44.584 12fc5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/04/24-14:57:44.584 12fc5 Delete type=2 #8
+2020/04/24-14:57:44.584 12fc5 Delete type=2 #5

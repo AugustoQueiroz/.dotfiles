@@ -1,0 +1,200 @@
+00:00:00.000176 main     VirtualBox XPCOM Server 6.0.14 r132055 linux.amd64 (Nov 26 2019 10:25:45) release log
+00:00:00.000178 main     Log opened 2020-02-12T13:57:40.957531000Z
+00:00:00.000178 main     Build Type: release
+00:00:00.000180 main     OS Product: Linux
+00:00:00.000181 main     OS Release: 5.4.1-arch1-1
+00:00:00.000182 main     OS Version: #1 SMP PREEMPT Fri, 29 Nov 2019 13:37:24 +0000
+00:00:00.000202 main     DMI Product Name: XPS 15 9575
+00:00:00.000209 main     DMI Product Version: 
+00:00:00.000239 main     Host RAM: 15735MB (15.3GB) total, 13902MB (13.5GB) available
+00:00:00.000241 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000242 main     Process ID: 3986
+00:00:00.000242 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001886 main     IPC socket path: /tmp/.vbox-asq-ipc/ipcd
+00:00:00.107342 nspr-2   VirtualBox: object creation starts
+00:00:00.107417 nspr-2   Home directory: '/home/asq/.config/VirtualBox'
+00:00:00.116478 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.117086 nspr-2   NAT: resolv.conf: nameserver 134.59.1.7
+00:00:00.117098 nspr-2   NAT: resolv.conf: nameserver 134.59.100.1
+00:00:00.117109 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.117131 nspr-2   HostDnsMonitor: old information
+00:00:00.117134 nspr-2     no server entries
+00:00:00.117138 nspr-2     no domain set
+00:00:00.117140 nspr-2     no search string entries
+00:00:00.117144 nspr-2   HostDnsMonitor: new information
+00:00:00.117146 nspr-2     server 1: 134.59.1.7
+00:00:00.117150 nspr-2     server 2: 134.59.100.1
+00:00:00.117153 nspr-2     domain: unice.fr
+00:00:00.117156 nspr-2     no search string entries
+00:00:00.119228 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.119371 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.119442 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d55176e5-6730-4e9e-fc1f-a59b1f44f78f} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.119844 nspr-2   VirtualBox: object created
+00:00:12.149750 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named '/tmp/mozilla_asq0/ISLE 2020.vbox'}, preserve=false aResultDetail=0
+00:00:12.493506 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named '/tmp/mozilla_asq0/ISLE 2020.vbox'}, preserve=false aResultDetail=0
+00:00:12.498117 nspr-4   Loading settings file "/tmp/mozilla_asq0/ISLE 2020.vbox" with version "1.15-windows"
+00:00:12.498985 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {3e585954-63d7-4755-85a2-cd6c53267284}}, preserve=false aResultDetail=0
+00:00:12.499809 nspr-4   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:12.508823 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:12.510879 nspr-4   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:00:15.452048 nspr-2   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:15.487159 nspr-4   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:16.464069 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:16.481212 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:16.546074 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:16.546888 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:04.678641 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:04.784035 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:05.045856 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:05.046021 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:05.046153 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:05.058760 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:05.063472 nspr-5   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:05.070578 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:05.070828 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:05.210420 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:05.219790 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:05.220490 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:21.473610 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:21.474130 nspr-4   Saving settings file "/tmp/mozilla_asq0/ISLE 2020.vbox" with version "1.15-linux"
+00:01:21.558717 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:21.566406 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:21.567007 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:44.343858 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:44.381824 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:44.444401 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:44.444522 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:44.444636 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:44.456433 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:44.461639 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:44.472071 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:44.472542 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:44.582446 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:44.591159 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:44.591790 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:22.012732 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:22.013179 nspr-4   Saving settings file "/tmp/mozilla_asq0/ISLE 2020.vbox" with version "1.15-linux"
+00:14:22.108139 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:22.117050 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:22.117716 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:24.091421 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:24.099348 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:24.099921 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:24.578119 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The virtual machine 'ISLE 2020' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:14:25.119007 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:25.182125 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:25.184304 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:41.578425 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:41.692723 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:41.893642 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:41.893767 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:41.893864 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:41.906341 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:14:41.912104 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:14:41.921861 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:41.922263 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:42.033724 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:14:42.042341 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:14:42.042990 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:16:07.610249 nspr-3   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:07.613277 nspr-4   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:16:07.616123 nspr-5   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Cannot register the hard disk '/home/asq/Downloads/sda-system_isle/sda-system_isle.vmdk' {b12897c2-b083-4661-8e56-87d2de8daa95} because a hard disk '/tmp/mozilla_asq0/sda-system_isle.vmdk' with UUID {b12897c2-b083-4661-8e56-87d2de8daa95} already exists}, preserve=false aResultDetail=0
+00:18:14.966850 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp' 'install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/tmp/mozilla_asq0/Oracle_VM_VirtualBox_Extension_Pack-6.1.2.vbox-extpack' '--sha-256' '54047312d836c17ef0939410f755cb5a23e3037ec402198cc97f755181b25632'
+00:18:21.864278 ExtPackInst ExtPack: enmReason=1 iStatus=0 stderr='rcExit=RTEXITCODE_SUCCESS
+00:18:21.864280 ExtPackInst '
+00:18:21.864872 ExtPackInst rtldrNativeLoad: dlopen('/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so', RTLD_NOW | RTLD_LOCAL) failed: /usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so: undefined symbol: RTVfsFileQuerySize
+00:18:21.864884 ExtPackInst ExtPackManager: Found bad extension pack 'Oracle VM VirtualBox Extension Pack': Failed to load the main module ('/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so'): VERR_FILE_NOT_FOUND - /usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so: undefined symbol: RTVfsFileQuerySize
+00:18:21.864888 ExtPackInst ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={Failed to load the main module ('/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so'): VERR_FILE_NOT_FOUND - /usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPuelMain.so: undefined symbol: RTVfsFileQuerySize}, preserve=false aResultDetail=0
+00:18:37.936934 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:37.953634 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:38.021173 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:38.022028 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:40.694305 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:40.698218 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:40.705635 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:40.706474 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:40.709831 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:40.710610 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:41.179770 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The virtual machine 'ISLE 2020' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:18:41.197318 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:41.212798 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:41.214036 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:41.711999 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:18:41.764808 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:18:41.765696 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.183829 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.284217 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.591830 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.591957 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.592074 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.601999 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.608486 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:19:56.612614 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.613268 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.613945 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:19:56.620348 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.620605 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.766761 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.778371 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.779258 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.786758 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:19:56.795884 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:19:56.796758 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:42.464157 nspr-6   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.478308 nspr-5   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.482070 nspr-3   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.488377 nspr-5   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.491267 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:42.492905 nspr-6   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.497201 nspr-5   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.499754 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:42.501351 nspr-4   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:42.511485 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:42.512143 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:49.631580 nspr-5   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:49.647785 nspr-4   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:49.651803 nspr-2   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:55.395958 nspr-2   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:56.614876 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:56.633330 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:56.706211 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:56.707027 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:59.033808 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:59.052320 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:21:59.065750 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:21:59.066956 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:22:00.376123 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:22:00.466969 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:22:00.778697 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:22:00.778797 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:22:00.778901 nspr-6   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:22:00.789003 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:22:00.793570 nspr-6   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp2s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:22:00.802239 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:22:00.802551 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:22:00.940762 nspr-5   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:22:00.949183 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:22:00.949826 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:24:25.125736 MainPower Host suspending: Paused 0 VMs
+00:24:44.856497 dns-monitor NAT: resolv.conf: nameserver 134.59.1.7
+00:24:44.856516 dns-monitor NAT: resolv.conf: nameserver 134.59.100.1
+00:24:44.856527 dns-monitor HostDnsMonitor::updateInfo
+00:24:44.856549 dns-monitor HostDnsMonitor: old information
+00:24:44.856552 dns-monitor   server 1: 134.59.1.7
+00:24:44.856556 dns-monitor   server 2: 134.59.100.1
+00:24:44.856559 dns-monitor   domain: unice.fr
+00:24:44.856562 dns-monitor   no search string entries
+00:24:44.856566 dns-monitor HostDnsMonitor: new information
+00:24:44.856569 dns-monitor   server 1: 134.59.1.7
+00:24:44.856572 dns-monitor   server 2: 134.59.100.1
+00:24:44.856575 dns-monitor   domain: unice.fr
+00:24:44.856578 dns-monitor   search string 1: unice.fr
+00:24:46.597552 MainPower Host resumed: Resumed 0 VMs
+00:32:45.593697 nspr-2   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:32:45.602962 nspr-2   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:32:45.606071 nspr-3   Saving settings file "/home/asq/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:32:51.116453 main     VirtualBox: object deletion starts
+00:32:51.116502 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/tmp/mozilla_asq0/sda-system_isle.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:32:51.213791 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:32:56.117314 main     {00007f0034015290} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:32:56.117720 main     VirtualBox: object deleted
