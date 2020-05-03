@@ -125,6 +125,9 @@ bindsym Next exec ydotool key End
 	# Screen Brightness
 	bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 	bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+
+	# Other tool keys
+	bindsym XF86Mail exec firefox --new-window gmail.com
 	
 #
 # Moving around:
