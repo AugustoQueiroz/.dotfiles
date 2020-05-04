@@ -113,6 +113,7 @@ bindsym Next exec ydotool key End
 
 	# Screen Shot
 	bindsym Print exec grim $(xdg-user-dir PICTURES)/screenshots/$(date +'%s_grim.png')
+	bindsym Ctrl+Print exec grim -g "$(slurp)" $(xdg-user-dir PICTURES)/screenshots/$(date +'%s_grim.png')
 
 	# Volume Control
 	bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
