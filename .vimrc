@@ -36,10 +36,9 @@ set foldnestmax=10	" 10 nested fold max
 " make is so <space> opens/closes folds
 nnoremap <space> za
 
-" Remap the movement keys one space to the right so they start at j
 " make it so if a line wraps, going down/up goes to the wrapped part of the line
-nnoremap j gj
-nnoremap k gk
+"nnoremap j gj
+"nnoremap k gk
 
 " Plugins
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -71,8 +70,11 @@ Plug '~/.fzf'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'vim-scripts/fountain.vim'
 Plug 'parkr/vim-jekyll'
+Plug 'lilydjwg/colorizer'
+Plug 'ddollar/nerdcommenter'
 
 call plug#end()
+set termguicolors
 
 " Lightline
 set laststatus=2 " Make the lightline appear
@@ -104,11 +106,6 @@ let g:prettier#config#tab_width=4
 " Rainbow
 let g:rainbow_active = 1
 map <C-]> :RainbowToggle<CR>
-
-" Doxygen Toolkit
-let g:DoxygenToolkit_authorName="Augusto Queiroz"
-map <C-?> :Dox<CR>
-map <BS> <nop>
 
 " Remap ctrl+b to build and run project
 nnoremap <leader>b :VimuxRunCommand("make")<CR>
