@@ -1,3 +1,5 @@
+set nocompatible
+
 set encoding=UTF-8
 
 map <Up> <nop>
@@ -18,9 +20,9 @@ nnoremap <S-Tab> <<
 
 " UI Configurations
 set number	" show the line numbers
-set relativenumber
+set relativenumber " Show the current line number and relative elsewhere
 set showcmd	" show the command in bottom bar
-" set cursorline	" highlight the current line
+set cursorline	" highlight the current line
 set showmatch	" highlight matching [{()}]
 set showtabline=2 " Always show the tab line
 
@@ -39,6 +41,10 @@ nnoremap <space> za
 " make it so if a line wraps, going down/up goes to the wrapped part of the line
 "nnoremap j gj
 "nnoremap k gk
+
+" Finding Files
+set path+=**
+set wildmenu
 
 " Plugins
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -72,6 +78,7 @@ Plug 'vim-scripts/fountain.vim'
 Plug 'parkr/vim-jekyll'
 Plug 'lilydjwg/colorizer'
 Plug 'ddollar/nerdcommenter'
+Plug 'lervag/vimtex'
 
 call plug#end()
 set termguicolors
@@ -118,5 +125,29 @@ nnoremap <leader>o :FZF<CR>
 
 " Things that depend on color
 colorscheme nord
-set cursorline " Make the current line appear highlighted
 syntax enable
+
+" Template Commands
+nnoremap ,class :-1read .vim/templates/class.%:e<CR>:%s/CLASS/\=expand('%:r')/g<CR>:%s/_\(.*\)_H_/_\U\1_H_/g<CR>
+nnoremap ,struct :-1read .vim/templates/struct.%:e<CR>:%s/CLASS/\=expand('%:r')/g<CR>:%s/_\(.*\)_H_/_\U\1_H_/g<CR>
+
+" 'IDE' Commands
+command! -nargs=1 Class silent call CreateClass(<q-args>)
+command! -nargs=1 CClass silent call CClass(<q-args>)
+
+" Functions
+function! CClass(className)
+		execute "e " . a:className . ".h"
+		execute "-1read .vim/templates/class.%:e"
+		execute "%s/CLASS/\\=expand('%:t:r')/g"
+		execute "%s/_\\(.*\\)_H_/_\\U\\1_H_/g"
+		execute "split " . a:className . ".cpp"
+		execute "-1read .vim/templates/class.%:e"
+		execute "%s/CLASS/\\=expand('%:t:r')/g"
+endfunction
+
+function! CreateClass(className)
+	if (expand("%:e") == 'cpp' || expand("%:e") == 'h')
+		call CClass(a:className)
+	endif
+endfunction
