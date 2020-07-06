@@ -1,13 +1,13 @@
 /*@define-color light #F6F8FF;
-@define-color dark #272D2D;
+@define-color dark #262527;
 @define-color yellow #FFE74C;
 @define-color green #01AF75;*/
 
 * {
-    backgroundcolor: #272D2D;
+    backgroundcolor: #262527;
     bg1: #3b4252;
-    backgroundcoloralternate: #272D2D;
-    separatorcolor: #272D2D;
+    backgroundcoloralternate: #262527;
+    separatorcolor: #262527;
     scrollbarcolor: #3C4242;
     foregroundcolor: #F6F8FF;
     foregroundcolorinverse: #F6F8FF;
