@@ -131,7 +131,9 @@ bindsym Next exec ydotool key End
 	bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 
 	# Other tool keys
-	bindsym XF86Mail exec firefox --new-window gmail.com
+	bindsym XF86Mail exec mailspring
+	bindsym XF86HomePage exec firefox
+	bindsym XF86Explorer exec nemo
 	
 #
 # Moving around:
@@ -282,10 +284,10 @@ for_window [class="^.*"] border pixel 0
 
 set $gnome-schema org.gnome.desktop.interface
 
-exec picom
+exec --no-startup-id picom
 exec ~/.key_fix
 exec --no-startup-id nm-applet
 
-exec --no-startup-id i3-msg 'workspace 8; exec /usr/bin/mailspring'
-exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/telegram-desktop'
-exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/htop'
+#exec --no-startup-id i3-msg 'workspace "8;"; exec /usr/bin/mailspring'
+#exec --no-startup-id i3-msg 'workspace "9;"; exec /usr/bin/telegram-desktop'
+#exec --no-startup-id i3-msg 'workspace "10;"; exec /usr/bin/htop'
